@@ -1,0 +1,3979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2001-2016 Opta Sportsdata Ltd. All rights reserved. -->
+
+<!-- PRODUCTION HEADER
+     produced on:        valde-jobq-a02.nexus.opta.net
+     production time:    20160821T201728,252Z
+     production module:  Opta::Feed::XML::Soccer::F1
+-->
+<SoccerFeed>
+  <SoccerDocument Type="RESULTS Latest" competition_code="EN_PR" competition_id="8" competition_name="English Premier League" game_system_id="1" season_id="2016" season_name="Season 2016/2017" timestamp="2016-08-21 21-17-28">
+    <MatchData detail_id="1" last_modified="2016-08-14T19:01:43+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855174">
+      <MatchInfo MatchDay="1" MatchType="Regular" MatchWinner="t80" Period="FullTime" Venue_id="88">
+        <Date>2016-08-13 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Turf Moor</Stat>
+      <Stat Type="City">Burnley</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t90" />
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t80">
+        <Goal Period="SecondHalf" PlayerRef="p49277" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-14T17:03:06+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855176">
+      <MatchInfo MatchDay="1" MatchType="Regular" MatchWinner="t35" Period="FullTime" Venue_id="48">
+        <Date>2016-08-13 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Selhurst Park</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t31" />
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t35">
+        <Goal Period="SecondHalf" PlayerRef="p57134" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-18T15:03:25+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855177">
+      <MatchInfo MatchDay="1" MatchType="Regular" Period="FullTime" Venue_id="37">
+        <Date>2016-08-13 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Goodison Park</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData HalfScore="1" Score="1" Side="Home" TeamRef="t11">
+        <Goal Period="FirstHalf" PlayerRef="p88894" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t6">
+        <Goal Period="SecondHalf" PlayerRef="p62974" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-15T11:34:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855178">
+      <MatchInfo MatchDay="1" MatchType="Regular" MatchWinner="t88" Period="FullTime" Venue_id="2638">
+        <Date>2016-08-13 12:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">KCOM Stadium</Stat>
+      <Stat Type="City">Hull</Stat>
+      <TeamData HalfScore="1" Score="2" Side="Home" TeamRef="t88">
+        <Goal Period="FirstHalf" PlayerRef="p111847" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p18987" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t13">
+        <Goal Period="SecondHalf" PlayerRef="p103025" Type="Penalty" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-14T19:47:23+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855179">
+      <MatchInfo MatchDay="1" MatchType="Regular" MatchWinner="t43" Period="FullTime" Venue_id="2691">
+        <Date>2016-08-13 17:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData HalfScore="1" Score="2" Side="Home" TeamRef="t43">
+        <Goal Period="FirstHalf" PlayerRef="p37572" Type="Penalty" />
+        <Goal Period="SecondHalf" PlayerRef="p160817" Type="Own" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t56">
+        <Goal Period="SecondHalf" PlayerRef="p7958" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-14T14:27:09+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855180">
+      <MatchInfo MatchDay="1" MatchType="Regular" Period="FullTime" Venue_id="46">
+        <Date>2016-08-13 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Riverside Stadium</Stat>
+      <Stat Type="City">Middlesbrough</Stat>
+      <TeamData HalfScore="1" Score="1" Side="Home" TeamRef="t25">
+        <Goal Period="FirstHalf" PlayerRef="p42892" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t110">
+        <Goal Period="SecondHalf" PlayerRef="p68312" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-14T19:10:23+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855181">
+      <MatchInfo MatchDay="1" MatchType="Regular" Period="FullTime" Venue_id="2370">
+        <Date>2016-08-13 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">St. Mary&#39;s Stadium</Stat>
+      <Stat Type="City">Southampton</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t20">
+        <Goal Period="SecondHalf" PlayerRef="p83283" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="1" Side="Away" TeamRef="t57">
+        <Goal Period="FirstHalf" PlayerRef="p38439" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-15T15:40:40+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855173">
+      <MatchInfo MatchDay="1" MatchType="Regular" MatchWinner="t14" Period="FullTime" Venue_id="3250">
+        <Date>2016-08-14 16:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Emirates Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData HalfScore="1" Score="3" Side="Home" TeamRef="t3">
+        <Goal Period="FirstHalf" PlayerRef="p20467" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p81880" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p101184" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="4" Side="Away" TeamRef="t14">
+        <Goal Period="FirstHalf" PlayerRef="p84583" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p84583" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p39155" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p110979" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-15T12:05:35+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855172">
+      <MatchInfo MatchDay="1" MatchType="Regular" MatchWinner="t1" Period="FullTime" Venue_id="2734">
+        <Date>2016-08-14 13:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vitality Stadium</Stat>
+      <Stat Type="City">Bournemouth</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t91">
+        <Goal Period="SecondHalf" PlayerRef="p54469" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="3" Side="Away" TeamRef="t1">
+        <Goal Period="FirstHalf" PlayerRef="p43670" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p13017" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p9808" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-16T12:06:48+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855175">
+      <MatchInfo MatchDay="1" MatchType="Regular" MatchWinner="t8" Period="FullTime" Venue_id="35">
+        <Date>2016-08-15 20:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData HalfScore="0" Score="2" Side="Home" TeamRef="t8">
+        <Goal Period="SecondHalf" PlayerRef="p42786" Type="Penalty" />
+        <Goal Period="SecondHalf" PlayerRef="p18507" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t21">
+        <Goal Period="SecondHalf" PlayerRef="p8380" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-20T14:24:23+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855184">
+      <MatchInfo MatchDay="2" MatchType="Regular" MatchWinner="t1" Period="FullTime" Venue_id="28">
+        <Date>2016-08-19 20:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData HalfScore="1" Score="2" Side="Home" TeamRef="t1">
+        <Goal Period="FirstHalf" PlayerRef="p9808" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p9808" Type="Penalty" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t20" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-21T15:34:59+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855444">
+      <MatchInfo MatchDay="2" MatchType="Regular" MatchWinner="t90" Period="FullTime" Venue_id="88">
+        <Date>2016-08-20 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Turf Moor</Stat>
+      <Stat Type="City">Burnley</Stat>
+      <TeamData HalfScore="2" Score="2" Side="Home" TeamRef="t90">
+        <Goal Period="FirstHalf" PlayerRef="p73426" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p40399" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t14" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-20T19:22:17+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855182">
+      <MatchInfo MatchDay="2" MatchType="Regular" Period="FullTime" Venue_id="2516">
+        <Date>2016-08-20 17:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">King Power Stadium</Stat>
+      <Stat Type="City">Leicester</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t13" />
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t3" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-20T21:50:23+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855185">
+      <MatchInfo MatchDay="2" MatchType="Regular" MatchWinner="t43" Period="FullTime" Venue_id="1">
+        <Date>2016-08-20 12:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">bet365 Stadium</Stat>
+      <Stat Type="City">Stoke</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t110">
+        <Goal Period="SecondHalf" PlayerRef="p40276" Type="Penalty" />
+      </TeamData>
+      <TeamData HalfScore="2" Score="4" Side="Away" TeamRef="t43">
+        <Goal Period="FirstHalf" PlayerRef="p37572" Type="Penalty" />
+        <Goal Period="FirstHalf" PlayerRef="p37572" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p86173" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p86173" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-21T16:09:05+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855187">
+      <MatchInfo MatchDay="2" MatchType="Regular" MatchWinner="t88" Period="FullTime" Venue_id="2867">
+        <Date>2016-08-20 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Liberty Stadium</Stat>
+      <Stat Type="City">Swansea</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t80" />
+      <TeamData HalfScore="0" Score="2" Side="Away" TeamRef="t88">
+        <Goal Period="SecondHalf" PlayerRef="p9110" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p59856" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-21T16:17:57+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855188">
+      <MatchInfo MatchDay="2" MatchType="Regular" MatchWinner="t6" Period="FullTime" Venue_id="33">
+        <Date>2016-08-20 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">White Hart Lane</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t6">
+        <Goal Period="SecondHalf" PlayerRef="p54756" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t31" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-21T16:47:59+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855189">
+      <MatchInfo MatchDay="2" MatchType="Regular" MatchWinner="t8" Period="FullTime" Venue_id="73">
+        <Date>2016-08-20 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vicarage Road</Stat>
+      <Stat Type="City">Watford</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t57">
+        <Goal Period="SecondHalf" PlayerRef="p38439" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="2" Side="Away" TeamRef="t8">
+        <Goal Period="SecondHalf" PlayerRef="p94245" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p18507" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-21T21:16:07+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855190">
+      <MatchInfo MatchDay="2" MatchType="Regular" MatchWinner="t11" Period="FullTime" Venue_id="51">
+        <Date>2016-08-20 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">The Hawthorns</Stat>
+      <Stat Type="City">West Bromwich</Stat>
+      <TeamData HalfScore="1" Score="1" Side="Home" TeamRef="t35">
+        <Goal Period="FirstHalf" PlayerRef="p19272" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="2" Side="Away" TeamRef="t11">
+        <Goal Period="FirstHalf" PlayerRef="p26901" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p1632" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-21T15:23:42+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855186">
+      <MatchInfo MatchDay="2" MatchType="Regular" MatchWinner="t25" Period="FullTime" Venue_id="72">
+        <Date>2016-08-21 13:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stadium of Light</Stat>
+      <Stat Type="City">Sunderland</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t56">
+        <Goal Period="SecondHalf" PlayerRef="p74230" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="2" Score="2" Side="Away" TeamRef="t25">
+        <Goal Period="FirstHalf" PlayerRef="p49464" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p49464" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-21T17:59:16+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855191">
+      <MatchInfo MatchDay="2" MatchType="Regular" MatchWinner="t21" Period="FullTime" Venue_id="11249">
+        <Date>2016-08-21 16:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">London Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t21">
+        <Goal Period="SecondHalf" PlayerRef="p57531" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t91" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-21T19:29:57+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855192">
+      <MatchInfo MatchDay="3" MatchType="Regular" Period="PreMatch" Venue_id="35">
+        <Date>2016-08-27 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t8" />
+      <TeamData Side="Away" TeamRef="t90" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855193">
+      <MatchInfo MatchDay="3" MatchType="Regular" Period="PreMatch" Venue_id="48">
+        <Date>2016-08-27 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Selhurst Park</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t31" />
+      <TeamData Side="Away" TeamRef="t91" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-21T19:30:19+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855194">
+      <MatchInfo MatchDay="3" MatchType="Regular" Period="PreMatch" Venue_id="37">
+        <Date>2016-08-27 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Goodison Park</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t11" />
+      <TeamData Side="Away" TeamRef="t110" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:28:32+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855195">
+      <MatchInfo MatchDay="3" MatchType="Regular" Period="PreMatch" Venue_id="2638">
+        <Date>2016-08-27 17:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">KCOM Stadium</Stat>
+      <Stat Type="City">Hull</Stat>
+      <TeamData Side="Home" TeamRef="t88" />
+      <TeamData Side="Away" TeamRef="t1" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-21T19:30:44+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855196">
+      <MatchInfo MatchDay="3" MatchType="Regular" Period="PreMatch" Venue_id="2516">
+        <Date>2016-08-27 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">King Power Stadium</Stat>
+      <Stat Type="City">Leicester</Stat>
+      <TeamData Side="Home" TeamRef="t13" />
+      <TeamData Side="Away" TeamRef="t80" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-21T19:32:13+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855198">
+      <MatchInfo MatchDay="3" MatchType="Regular" Period="PreMatch" Venue_id="2370">
+        <Date>2016-08-27 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">St. Mary&#39;s Stadium</Stat>
+      <Stat Type="City">Southampton</Stat>
+      <TeamData Side="Home" TeamRef="t20" />
+      <TeamData Side="Away" TeamRef="t56" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:28:18+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855199">
+      <MatchInfo MatchDay="3" MatchType="Regular" Period="PreMatch" Venue_id="33">
+        <Date>2016-08-27 12:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">White Hart Lane</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t6" />
+      <TeamData Side="Away" TeamRef="t14" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-21T19:32:36+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855200">
+      <MatchInfo MatchDay="3" MatchType="Regular" Period="PreMatch" Venue_id="73">
+        <Date>2016-08-27 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vicarage Road</Stat>
+      <Stat Type="City">Watford</Stat>
+      <TeamData Side="Home" TeamRef="t57" />
+      <TeamData Side="Away" TeamRef="t3" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:29:03+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855197">
+      <MatchInfo MatchDay="3" MatchType="Regular" Period="PreMatch" Venue_id="2691">
+        <Date>2016-08-28 16:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t43" />
+      <TeamData Side="Away" TeamRef="t21" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:28:46+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855201">
+      <MatchInfo MatchDay="3" MatchType="Regular" Period="PreMatch" Venue_id="51">
+        <Date>2016-08-28 13:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">The Hawthorns</Stat>
+      <Stat Type="City">West Bromwich</Stat>
+      <TeamData Side="Home" TeamRef="t35" />
+      <TeamData Side="Away" TeamRef="t25" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855203">
+      <MatchInfo MatchDay="4" MatchType="Regular" Period="PreMatch" Venue_id="3250">
+        <Date>2016-09-10 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Emirates Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t3" />
+      <TeamData Side="Away" TeamRef="t20" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855202">
+      <MatchInfo MatchDay="4" MatchType="Regular" Period="PreMatch" Venue_id="2734">
+        <Date>2016-09-10 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vitality Stadium</Stat>
+      <Stat Type="City">Bournemouth</Stat>
+      <TeamData Side="Home" TeamRef="t91" />
+      <TeamData Side="Away" TeamRef="t35" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855204">
+      <MatchInfo MatchDay="4" MatchType="Regular" Period="PreMatch" Venue_id="88">
+        <Date>2016-09-10 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Turf Moor</Stat>
+      <Stat Type="City">Burnley</Stat>
+      <TeamData Side="Home" TeamRef="t90" />
+      <TeamData Side="Away" TeamRef="t88" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:30:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855205">
+      <MatchInfo MatchDay="4" MatchType="Regular" Period="PreMatch" Venue_id="39">
+        <Date>2016-09-10 17:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t14" />
+      <TeamData Side="Away" TeamRef="t13" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:29:51+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855206">
+      <MatchInfo MatchDay="4" MatchType="Regular" Period="PreMatch" Venue_id="28">
+        <Date>2016-09-10 12:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t1" />
+      <TeamData Side="Away" TeamRef="t43" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855207">
+      <MatchInfo MatchDay="4" MatchType="Regular" Period="PreMatch" Venue_id="46">
+        <Date>2016-09-10 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Riverside Stadium</Stat>
+      <Stat Type="City">Middlesbrough</Stat>
+      <TeamData Side="Home" TeamRef="t25" />
+      <TeamData Side="Away" TeamRef="t31" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855208">
+      <MatchInfo MatchDay="4" MatchType="Regular" Period="PreMatch" Venue_id="1">
+        <Date>2016-09-10 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">bet365 Stadium</Stat>
+      <Stat Type="City">Stoke</Stat>
+      <TeamData Side="Home" TeamRef="t110" />
+      <TeamData Side="Away" TeamRef="t6" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855211">
+      <MatchInfo MatchDay="4" MatchType="Regular" Period="PreMatch" Venue_id="11249">
+        <Date>2016-09-10 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">London Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t21" />
+      <TeamData Side="Away" TeamRef="t57" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:30:16+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855210">
+      <MatchInfo MatchDay="4" MatchType="Regular" Period="PreMatch" Venue_id="2867">
+        <Date>2016-09-11 16:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Liberty Stadium</Stat>
+      <Stat Type="City">Swansea</Stat>
+      <TeamData Side="Home" TeamRef="t80" />
+      <TeamData Side="Away" TeamRef="t8" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:30:37+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855209">
+      <MatchInfo MatchDay="4" MatchType="Regular" Period="PreMatch" Venue_id="72">
+        <Date>2016-09-12 20:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stadium of Light</Stat>
+      <Stat Type="City">Sunderland</Stat>
+      <TeamData Side="Home" TeamRef="t56" />
+      <TeamData Side="Away" TeamRef="t11" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:31:41+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855212">
+      <MatchInfo MatchDay="5" MatchType="Regular" Period="PreMatch" Venue_id="35">
+        <Date>2016-09-16 20:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t8" />
+      <TeamData Side="Away" TeamRef="t14" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:31:53+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855214">
+      <MatchInfo MatchDay="5" MatchType="Regular" Period="PreMatch" Venue_id="37">
+        <Date>2016-09-17 17:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Goodison Park</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t11" />
+      <TeamData Side="Away" TeamRef="t25" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855215">
+      <MatchInfo MatchDay="5" MatchType="Regular" Period="PreMatch" Venue_id="2638">
+        <Date>2016-09-17 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">KCOM Stadium</Stat>
+      <Stat Type="City">Hull</Stat>
+      <TeamData Side="Home" TeamRef="t88" />
+      <TeamData Side="Away" TeamRef="t3" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855216">
+      <MatchInfo MatchDay="5" MatchType="Regular" Period="PreMatch" Venue_id="2516">
+        <Date>2016-09-17 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">King Power Stadium</Stat>
+      <Stat Type="City">Leicester</Stat>
+      <TeamData Side="Home" TeamRef="t13" />
+      <TeamData Side="Away" TeamRef="t90" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855217">
+      <MatchInfo MatchDay="5" MatchType="Regular" Period="PreMatch" Venue_id="2691">
+        <Date>2016-09-17 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t43" />
+      <TeamData Side="Away" TeamRef="t91" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855221">
+      <MatchInfo MatchDay="5" MatchType="Regular" Period="PreMatch" Venue_id="51">
+        <Date>2016-09-17 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">The Hawthorns</Stat>
+      <Stat Type="City">West Bromwich</Stat>
+      <TeamData Side="Home" TeamRef="t35" />
+      <TeamData Side="Away" TeamRef="t21" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:32:28+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855213">
+      <MatchInfo MatchDay="5" MatchType="Regular" Period="PreMatch" Venue_id="48">
+        <Date>2016-09-18 14:15:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Selhurst Park</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t31" />
+      <TeamData Side="Away" TeamRef="t110" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:32:41+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855218">
+      <MatchInfo MatchDay="5" MatchType="Regular" Period="PreMatch" Venue_id="2370">
+        <Date>2016-09-18 14:15:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">St. Mary&#39;s Stadium</Stat>
+      <Stat Type="City">Southampton</Stat>
+      <TeamData Side="Home" TeamRef="t20" />
+      <TeamData Side="Away" TeamRef="t80" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:32:55+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855219">
+      <MatchInfo MatchDay="5" MatchType="Regular" Period="PreMatch" Venue_id="33">
+        <Date>2016-09-18 16:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">White Hart Lane</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t6" />
+      <TeamData Side="Away" TeamRef="t56" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:32:09+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855220">
+      <MatchInfo MatchDay="5" MatchType="Regular" Period="PreMatch" Venue_id="73">
+        <Date>2016-09-18 12:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vicarage Road</Stat>
+      <Stat Type="City">Watford</Stat>
+      <TeamData Side="Home" TeamRef="t57" />
+      <TeamData Side="Away" TeamRef="t1" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:33:58+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855223">
+      <MatchInfo MatchDay="6" MatchType="Regular" Period="PreMatch" Venue_id="3250">
+        <Date>2016-09-24 17:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Emirates Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t3" />
+      <TeamData Side="Away" TeamRef="t8" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855222">
+      <MatchInfo MatchDay="6" MatchType="Regular" Period="PreMatch" Venue_id="2734">
+        <Date>2016-09-24 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vitality Stadium</Stat>
+      <Stat Type="City">Bournemouth</Stat>
+      <TeamData Side="Home" TeamRef="t91" />
+      <TeamData Side="Away" TeamRef="t11" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855225">
+      <MatchInfo MatchDay="6" MatchType="Regular" Period="PreMatch" Venue_id="39">
+        <Date>2016-09-24 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t14" />
+      <TeamData Side="Away" TeamRef="t88" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:33:40+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855226">
+      <MatchInfo MatchDay="6" MatchType="Regular" Period="PreMatch" Venue_id="28">
+        <Date>2016-09-24 12:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t1" />
+      <TeamData Side="Away" TeamRef="t13" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855227">
+      <MatchInfo MatchDay="6" MatchType="Regular" Period="PreMatch" Venue_id="46">
+        <Date>2016-09-24 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Riverside Stadium</Stat>
+      <Stat Type="City">Middlesbrough</Stat>
+      <TeamData Side="Home" TeamRef="t25" />
+      <TeamData Side="Away" TeamRef="t6" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855228">
+      <MatchInfo MatchDay="6" MatchType="Regular" Period="PreMatch" Venue_id="1">
+        <Date>2016-09-24 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">bet365 Stadium</Stat>
+      <Stat Type="City">Stoke</Stat>
+      <TeamData Side="Home" TeamRef="t110" />
+      <TeamData Side="Away" TeamRef="t35" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855229">
+      <MatchInfo MatchDay="6" MatchType="Regular" Period="PreMatch" Venue_id="72">
+        <Date>2016-09-24 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stadium of Light</Stat>
+      <Stat Type="City">Sunderland</Stat>
+      <TeamData Side="Home" TeamRef="t56" />
+      <TeamData Side="Away" TeamRef="t31" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855230">
+      <MatchInfo MatchDay="6" MatchType="Regular" Period="PreMatch" Venue_id="2867">
+        <Date>2016-09-24 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Liberty Stadium</Stat>
+      <Stat Type="City">Swansea</Stat>
+      <TeamData Side="Home" TeamRef="t80" />
+      <TeamData Side="Away" TeamRef="t43" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:34:10+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855231">
+      <MatchInfo MatchDay="6" MatchType="Regular" Period="PreMatch" Venue_id="11249">
+        <Date>2016-09-25 16:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">London Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t21" />
+      <TeamData Side="Away" TeamRef="t20" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:34:24+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855224">
+      <MatchInfo MatchDay="6" MatchType="Regular" Period="PreMatch" Venue_id="88">
+        <Date>2016-09-26 20:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Turf Moor</Stat>
+      <Stat Type="City">Burnley</Stat>
+      <TeamData Side="Home" TeamRef="t90" />
+      <TeamData Side="Away" TeamRef="t57" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:51:53+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855233">
+      <MatchInfo MatchDay="7" MatchType="Regular" Period="PreMatch" Venue_id="37">
+        <Date>2016-09-30 20:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Goodison Park</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t11" />
+      <TeamData Side="Away" TeamRef="t31" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855234">
+      <MatchInfo MatchDay="7" MatchType="Regular" Period="PreMatch" Venue_id="2638">
+        <Date>2016-10-01 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">KCOM Stadium</Stat>
+      <Stat Type="City">Hull</Stat>
+      <TeamData Side="Home" TeamRef="t88" />
+      <TeamData Side="Away" TeamRef="t8" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855237">
+      <MatchInfo MatchDay="7" MatchType="Regular" Period="PreMatch" Venue_id="72">
+        <Date>2016-10-01 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stadium of Light</Stat>
+      <Stat Type="City">Sunderland</Stat>
+      <TeamData Side="Home" TeamRef="t56" />
+      <TeamData Side="Away" TeamRef="t35" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:52:08+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855238">
+      <MatchInfo MatchDay="7" MatchType="Regular" Period="PreMatch" Venue_id="2867">
+        <Date>2016-10-01 12:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Liberty Stadium</Stat>
+      <Stat Type="City">Swansea</Stat>
+      <TeamData Side="Home" TeamRef="t80" />
+      <TeamData Side="Away" TeamRef="t14" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855240">
+      <MatchInfo MatchDay="7" MatchType="Regular" Period="PreMatch" Venue_id="73">
+        <Date>2016-10-01 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vicarage Road</Stat>
+      <Stat Type="City">Watford</Stat>
+      <TeamData Side="Home" TeamRef="t57" />
+      <TeamData Side="Away" TeamRef="t91" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855241">
+      <MatchInfo MatchDay="7" MatchType="Regular" Period="PreMatch" Venue_id="11249">
+        <Date>2016-10-01 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">London Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t21" />
+      <TeamData Side="Away" TeamRef="t25" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:53:50+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855232">
+      <MatchInfo MatchDay="7" MatchType="Regular" Period="PreMatch" Venue_id="88">
+        <Date>2016-10-02 16:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Turf Moor</Stat>
+      <Stat Type="City">Burnley</Stat>
+      <TeamData Side="Home" TeamRef="t90" />
+      <TeamData Side="Away" TeamRef="t3" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T15:02:01+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855235">
+      <MatchInfo MatchDay="7" MatchType="Regular" Period="PreMatch" Venue_id="2516">
+        <Date>2016-10-02 14:15:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">King Power Stadium</Stat>
+      <Stat Type="City">Leicester</Stat>
+      <TeamData Side="Home" TeamRef="t13" />
+      <TeamData Side="Away" TeamRef="t20" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:52:27+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855236">
+      <MatchInfo MatchDay="7" MatchType="Regular" Period="PreMatch" Venue_id="28">
+        <Date>2016-10-02 12:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t1" />
+      <TeamData Side="Away" TeamRef="t110" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:53:33+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855239">
+      <MatchInfo MatchDay="7" MatchType="Regular" Period="PreMatch" Venue_id="33">
+        <Date>2016-10-02 14:15:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">White Hart Lane</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t6" />
+      <TeamData Side="Away" TeamRef="t43" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855243">
+      <MatchInfo MatchDay="8" MatchType="Regular" Period="PreMatch" Venue_id="3250">
+        <Date>2016-10-15 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Emirates Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t3" />
+      <TeamData Side="Away" TeamRef="t80" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855242">
+      <MatchInfo MatchDay="8" MatchType="Regular" Period="PreMatch" Venue_id="2734">
+        <Date>2016-10-15 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vitality Stadium</Stat>
+      <Stat Type="City">Bournemouth</Stat>
+      <TeamData Side="Home" TeamRef="t91" />
+      <TeamData Side="Away" TeamRef="t88" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:54:25+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855245">
+      <MatchInfo MatchDay="8" MatchType="Regular" Period="PreMatch" Venue_id="48">
+        <Date>2016-10-15 17:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Selhurst Park</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t31" />
+      <TeamData Side="Away" TeamRef="t21" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855247">
+      <MatchInfo MatchDay="8" MatchType="Regular" Period="PreMatch" Venue_id="2691">
+        <Date>2016-10-15 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t43" />
+      <TeamData Side="Away" TeamRef="t11" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:54:12+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855248">
+      <MatchInfo MatchDay="8" MatchType="Regular" Period="PreMatch" Venue_id="46">
+        <Date>2016-10-15 12:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Riverside Stadium</Stat>
+      <Stat Type="City">Middlesbrough</Stat>
+      <TeamData Side="Home" TeamRef="t25" />
+      <TeamData Side="Away" TeamRef="t57" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855250">
+      <MatchInfo MatchDay="8" MatchType="Regular" Period="PreMatch" Venue_id="1">
+        <Date>2016-10-15 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">bet365 Stadium</Stat>
+      <Stat Type="City">Stoke</Stat>
+      <TeamData Side="Home" TeamRef="t110" />
+      <TeamData Side="Away" TeamRef="t56" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855251">
+      <MatchInfo MatchDay="8" MatchType="Regular" Period="PreMatch" Venue_id="51">
+        <Date>2016-10-15 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">The Hawthorns</Stat>
+      <Stat Type="City">West Bromwich</Stat>
+      <TeamData Side="Home" TeamRef="t35" />
+      <TeamData Side="Away" TeamRef="t6" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:54:51+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855244">
+      <MatchInfo MatchDay="8" MatchType="Regular" Period="PreMatch" Venue_id="35">
+        <Date>2016-10-16 13:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t8" />
+      <TeamData Side="Away" TeamRef="t13" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:55:09+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855249">
+      <MatchInfo MatchDay="8" MatchType="Regular" Period="PreMatch" Venue_id="2370">
+        <Date>2016-10-16 16:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">St. Mary&#39;s Stadium</Stat>
+      <Stat Type="City">Southampton</Stat>
+      <TeamData Side="Home" TeamRef="t20" />
+      <TeamData Side="Away" TeamRef="t90" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:55:23+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855246">
+      <MatchInfo MatchDay="8" MatchType="Regular" Period="PreMatch" Venue_id="39">
+        <Date>2016-10-17 20:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t14" />
+      <TeamData Side="Away" TeamRef="t1" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855253">
+      <MatchInfo MatchDay="9" MatchType="Regular" Period="PreMatch" Venue_id="3250">
+        <Date>2016-10-22 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Emirates Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t3" />
+      <TeamData Side="Away" TeamRef="t25" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:55:39+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855252">
+      <MatchInfo MatchDay="9" MatchType="Regular" Period="PreMatch" Venue_id="2734">
+        <Date>2016-10-22 12:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vitality Stadium</Stat>
+      <Stat Type="City">Bournemouth</Stat>
+      <TeamData Side="Home" TeamRef="t91" />
+      <TeamData Side="Away" TeamRef="t6" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855254">
+      <MatchInfo MatchDay="9" MatchType="Regular" Period="PreMatch" Venue_id="88">
+        <Date>2016-10-22 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Turf Moor</Stat>
+      <Stat Type="City">Burnley</Stat>
+      <TeamData Side="Home" TeamRef="t90" />
+      <TeamData Side="Away" TeamRef="t11" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855256">
+      <MatchInfo MatchDay="9" MatchType="Regular" Period="PreMatch" Venue_id="2638">
+        <Date>2016-10-22 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">KCOM Stadium</Stat>
+      <Stat Type="City">Hull</Stat>
+      <TeamData Side="Home" TeamRef="t88" />
+      <TeamData Side="Away" TeamRef="t110" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855257">
+      <MatchInfo MatchDay="9" MatchType="Regular" Period="PreMatch" Venue_id="2516">
+        <Date>2016-10-22 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">King Power Stadium</Stat>
+      <Stat Type="City">Leicester</Stat>
+      <TeamData Side="Home" TeamRef="t13" />
+      <TeamData Side="Away" TeamRef="t31" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:55:53+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855258">
+      <MatchInfo MatchDay="9" MatchType="Regular" Period="PreMatch" Venue_id="39">
+        <Date>2016-10-22 17:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t14" />
+      <TeamData Side="Away" TeamRef="t35" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855260">
+      <MatchInfo MatchDay="9" MatchType="Regular" Period="PreMatch" Venue_id="2867">
+        <Date>2016-10-22 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Liberty Stadium</Stat>
+      <Stat Type="City">Swansea</Stat>
+      <TeamData Side="Home" TeamRef="t80" />
+      <TeamData Side="Away" TeamRef="t57" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855261">
+      <MatchInfo MatchDay="9" MatchType="Regular" Period="PreMatch" Venue_id="11249">
+        <Date>2016-10-22 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">London Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t21" />
+      <TeamData Side="Away" TeamRef="t56" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:56:28+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855255">
+      <MatchInfo MatchDay="9" MatchType="Regular" Period="PreMatch" Venue_id="35">
+        <Date>2016-10-23 16:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t8" />
+      <TeamData Side="Away" TeamRef="t1" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:56:11+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855259">
+      <MatchInfo MatchDay="9" MatchType="Regular" Period="PreMatch" Venue_id="2691">
+        <Date>2016-10-23 13:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t43" />
+      <TeamData Side="Away" TeamRef="t20" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:57:07+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855262">
+      <MatchInfo MatchDay="10" MatchType="Regular" Period="PreMatch" Venue_id="48">
+        <Date>2016-10-29 17:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Selhurst Park</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t31" />
+      <TeamData Side="Away" TeamRef="t14" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855264">
+      <MatchInfo MatchDay="10" MatchType="Regular" Period="PreMatch" Venue_id="28">
+        <Date>2016-10-29 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t1" />
+      <TeamData Side="Away" TeamRef="t90" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855265">
+      <MatchInfo MatchDay="10" MatchType="Regular" Period="PreMatch" Venue_id="46">
+        <Date>2016-10-29 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Riverside Stadium</Stat>
+      <Stat Type="City">Middlesbrough</Stat>
+      <TeamData Side="Home" TeamRef="t25" />
+      <TeamData Side="Away" TeamRef="t91" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:56:56+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855268">
+      <MatchInfo MatchDay="10" MatchType="Regular" Period="PreMatch" Venue_id="72">
+        <Date>2016-10-29 12:30:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stadium of Light</Stat>
+      <Stat Type="City">Sunderland</Stat>
+      <TeamData Side="Home" TeamRef="t56" />
+      <TeamData Side="Away" TeamRef="t3" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855269">
+      <MatchInfo MatchDay="10" MatchType="Regular" Period="PreMatch" Venue_id="33">
+        <Date>2016-10-29 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">White Hart Lane</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t6" />
+      <TeamData Side="Away" TeamRef="t13" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855270">
+      <MatchInfo MatchDay="10" MatchType="Regular" Period="PreMatch" Venue_id="73">
+        <Date>2016-10-29 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vicarage Road</Stat>
+      <Stat Type="City">Watford</Stat>
+      <TeamData Side="Home" TeamRef="t57" />
+      <TeamData Side="Away" TeamRef="t88" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855271">
+      <MatchInfo MatchDay="10" MatchType="Regular" Period="PreMatch" Venue_id="51">
+        <Date>2016-10-29 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">The Hawthorns</Stat>
+      <Stat Type="City">West Bromwich</Stat>
+      <TeamData Side="Home" TeamRef="t35" />
+      <TeamData Side="Away" TeamRef="t43" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:57:21+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855263">
+      <MatchInfo MatchDay="10" MatchType="Regular" Period="PreMatch" Venue_id="37">
+        <Date>2016-10-30 13:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Goodison Park</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t11" />
+      <TeamData Side="Away" TeamRef="t21" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:57:38+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855266">
+      <MatchInfo MatchDay="10" MatchType="Regular" Period="PreMatch" Venue_id="2370">
+        <Date>2016-10-30 16:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">St. Mary&#39;s Stadium</Stat>
+      <Stat Type="City">Southampton</Stat>
+      <TeamData Side="Home" TeamRef="t20" />
+      <TeamData Side="Away" TeamRef="t8" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:57:51+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855267">
+      <MatchInfo MatchDay="10" MatchType="Regular" Period="PreMatch" Venue_id="1">
+        <Date>2016-10-31 20:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">bet365 Stadium</Stat>
+      <Stat Type="City">Stoke</Stat>
+      <TeamData Side="Home" TeamRef="t110" />
+      <TeamData Side="Away" TeamRef="t80" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855272">
+      <MatchInfo MatchDay="11" MatchType="Regular" Period="PreMatch" Venue_id="2734">
+        <Date>2016-11-05 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vitality Stadium</Stat>
+      <Stat Type="City">Bournemouth</Stat>
+      <TeamData Side="Home" TeamRef="t91" />
+      <TeamData Side="Away" TeamRef="t56" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855274">
+      <MatchInfo MatchDay="11" MatchType="Regular" Period="PreMatch" Venue_id="88">
+        <Date>2016-11-05 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Turf Moor</Stat>
+      <Stat Type="City">Burnley</Stat>
+      <TeamData Side="Home" TeamRef="t90" />
+      <TeamData Side="Away" TeamRef="t31" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:58:10+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855275">
+      <MatchInfo MatchDay="11" MatchType="Regular" Period="PreMatch" Venue_id="35">
+        <Date>2016-11-05 17:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t8" />
+      <TeamData Side="Away" TeamRef="t11" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855279">
+      <MatchInfo MatchDay="11" MatchType="Regular" Period="PreMatch" Venue_id="2691">
+        <Date>2016-11-05 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t43" />
+      <TeamData Side="Away" TeamRef="t25" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855281">
+      <MatchInfo MatchDay="11" MatchType="Regular" Period="PreMatch" Venue_id="11249">
+        <Date>2016-11-05 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">London Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t21" />
+      <TeamData Side="Away" TeamRef="t110" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:58:22+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855273">
+      <MatchInfo MatchDay="11" MatchType="Regular" Period="PreMatch" Venue_id="3250">
+        <Date>2016-11-06 12:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Emirates Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t3" />
+      <TeamData Side="Away" TeamRef="t6" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-19T11:05:42+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855276">
+      <MatchInfo MatchDay="11" MatchType="Regular" Period="PreMatch" Venue_id="2638">
+        <Date>2016-11-06 14:15:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">KCOM Stadium</Stat>
+      <Stat Type="City">Hull</Stat>
+      <TeamData Side="Home" TeamRef="t88" />
+      <TeamData Side="Away" TeamRef="t20" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:58:50+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855277">
+      <MatchInfo MatchDay="11" MatchType="Regular" Period="PreMatch" Venue_id="2516">
+        <Date>2016-11-06 16:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">King Power Stadium</Stat>
+      <Stat Type="City">Leicester</Stat>
+      <TeamData Side="Home" TeamRef="t13" />
+      <TeamData Side="Away" TeamRef="t35" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:58:35+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855278">
+      <MatchInfo MatchDay="11" MatchType="Regular" Period="PreMatch" Venue_id="39">
+        <Date>2016-11-06 14:15:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t14" />
+      <TeamData Side="Away" TeamRef="t57" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T15:02:40+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855280">
+      <MatchInfo MatchDay="11" MatchType="Regular" Period="PreMatch" Venue_id="2867">
+        <Date TBC="3">2016-11-06 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Liberty Stadium</Stat>
+      <Stat Type="City">Swansea</Stat>
+      <TeamData Side="Home" TeamRef="t80" />
+      <TeamData Side="Away" TeamRef="t1" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855282">
+      <MatchInfo MatchDay="12" MatchType="Regular" Period="PreMatch" Venue_id="48">
+        <Date>2016-11-19 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Selhurst Park</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t31" />
+      <TeamData Side="Away" TeamRef="t43" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855283">
+      <MatchInfo MatchDay="12" MatchType="Regular" Period="PreMatch" Venue_id="37">
+        <Date>2016-11-19 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Goodison Park</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t11" />
+      <TeamData Side="Away" TeamRef="t80" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:59:39+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855284">
+      <MatchInfo MatchDay="12" MatchType="Regular" Period="PreMatch" Venue_id="28">
+        <Date>2016-11-19 12:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t1" />
+      <TeamData Side="Away" TeamRef="t3" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855286">
+      <MatchInfo MatchDay="12" MatchType="Regular" Period="PreMatch" Venue_id="2370">
+        <Date>2016-11-19 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">St. Mary&#39;s Stadium</Stat>
+      <Stat Type="City">Southampton</Stat>
+      <TeamData Side="Home" TeamRef="t20" />
+      <TeamData Side="Away" TeamRef="t14" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855287">
+      <MatchInfo MatchDay="12" MatchType="Regular" Period="PreMatch" Venue_id="1">
+        <Date>2016-11-19 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">bet365 Stadium</Stat>
+      <Stat Type="City">Stoke</Stat>
+      <TeamData Side="Home" TeamRef="t110" />
+      <TeamData Side="Away" TeamRef="t91" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855288">
+      <MatchInfo MatchDay="12" MatchType="Regular" Period="PreMatch" Venue_id="72">
+        <Date>2016-11-19 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stadium of Light</Stat>
+      <Stat Type="City">Sunderland</Stat>
+      <TeamData Side="Home" TeamRef="t56" />
+      <TeamData Side="Away" TeamRef="t88" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T14:59:28+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855289">
+      <MatchInfo MatchDay="12" MatchType="Regular" Period="PreMatch" Venue_id="33">
+        <Date>2016-11-19 17:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">White Hart Lane</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t6" />
+      <TeamData Side="Away" TeamRef="t21" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855290">
+      <MatchInfo MatchDay="12" MatchType="Regular" Period="PreMatch" Venue_id="73">
+        <Date>2016-11-19 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vicarage Road</Stat>
+      <Stat Type="City">Watford</Stat>
+      <TeamData Side="Home" TeamRef="t57" />
+      <TeamData Side="Away" TeamRef="t13" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T15:00:04+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855285">
+      <MatchInfo MatchDay="12" MatchType="Regular" Period="PreMatch" Venue_id="46">
+        <Date>2016-11-20 16:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Riverside Stadium</Stat>
+      <Stat Type="City">Middlesbrough</Stat>
+      <TeamData Side="Home" TeamRef="t25" />
+      <TeamData Side="Away" TeamRef="t8" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T15:00:18+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855291">
+      <MatchInfo MatchDay="12" MatchType="Regular" Period="PreMatch" Venue_id="51">
+        <Date>2016-11-21 20:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">The Hawthorns</Stat>
+      <Stat Type="City">West Bromwich</Stat>
+      <TeamData Side="Home" TeamRef="t35" />
+      <TeamData Side="Away" TeamRef="t90" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T15:00:37+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855293">
+      <MatchInfo MatchDay="13" MatchType="Regular" Period="PreMatch" Venue_id="88">
+        <Date>2016-11-26 12:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Turf Moor</Stat>
+      <Stat Type="City">Burnley</Stat>
+      <TeamData Side="Home" TeamRef="t90" />
+      <TeamData Side="Away" TeamRef="t43" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T15:00:54+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855294">
+      <MatchInfo MatchDay="13" MatchType="Regular" Period="PreMatch" Venue_id="35">
+        <Date>2016-11-26 17:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t8" />
+      <TeamData Side="Away" TeamRef="t6" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855295">
+      <MatchInfo MatchDay="13" MatchType="Regular" Period="PreMatch" Venue_id="2638">
+        <Date>2016-11-26 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">KCOM Stadium</Stat>
+      <Stat Type="City">Hull</Stat>
+      <TeamData Side="Home" TeamRef="t88" />
+      <TeamData Side="Away" TeamRef="t35" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855296">
+      <MatchInfo MatchDay="13" MatchType="Regular" Period="PreMatch" Venue_id="2516">
+        <Date>2016-11-26 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">King Power Stadium</Stat>
+      <Stat Type="City">Leicester</Stat>
+      <TeamData Side="Home" TeamRef="t13" />
+      <TeamData Side="Away" TeamRef="t25" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855297">
+      <MatchInfo MatchDay="13" MatchType="Regular" Period="PreMatch" Venue_id="39">
+        <Date>2016-11-26 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t14" />
+      <TeamData Side="Away" TeamRef="t56" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855300">
+      <MatchInfo MatchDay="13" MatchType="Regular" Period="PreMatch" Venue_id="2867">
+        <Date>2016-11-26 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Liberty Stadium</Stat>
+      <Stat Type="City">Swansea</Stat>
+      <TeamData Side="Home" TeamRef="t80" />
+      <TeamData Side="Away" TeamRef="t31" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T15:01:19+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855292">
+      <MatchInfo MatchDay="13" MatchType="Regular" Period="PreMatch" Venue_id="3250">
+        <Date>2016-11-27 14:15:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Emirates Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t3" />
+      <TeamData Side="Away" TeamRef="t91" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T15:02:58+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855298">
+      <MatchInfo MatchDay="13" MatchType="Regular" Period="PreMatch" Venue_id="28">
+        <Date>2016-11-27 16:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t1" />
+      <TeamData Side="Away" TeamRef="t21" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T15:01:32+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855299">
+      <MatchInfo MatchDay="13" MatchType="Regular" Period="PreMatch" Venue_id="2370">
+        <Date>2016-11-27 16:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">St. Mary&#39;s Stadium</Stat>
+      <Stat Type="City">Southampton</Stat>
+      <TeamData Side="Home" TeamRef="t20" />
+      <TeamData Side="Away" TeamRef="t11" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-08-12T15:01:06+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855301">
+      <MatchInfo MatchDay="13" MatchType="Regular" Period="PreMatch" Venue_id="73">
+        <Date>2016-11-27 12:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vicarage Road</Stat>
+      <Stat Type="City">Watford</Stat>
+      <TeamData Side="Home" TeamRef="t57" />
+      <TeamData Side="Away" TeamRef="t110" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855302">
+      <MatchInfo MatchDay="14" MatchType="Regular" Period="PreMatch" Venue_id="2734">
+        <Date>2016-12-03 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vitality Stadium</Stat>
+      <Stat Type="City">Bournemouth</Stat>
+      <TeamData Side="Home" TeamRef="t91" />
+      <TeamData Side="Away" TeamRef="t14" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855303">
+      <MatchInfo MatchDay="14" MatchType="Regular" Period="PreMatch" Venue_id="48">
+        <Date>2016-12-03 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Selhurst Park</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t31" />
+      <TeamData Side="Away" TeamRef="t20" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855304">
+      <MatchInfo MatchDay="14" MatchType="Regular" Period="PreMatch" Venue_id="37">
+        <Date>2016-12-03 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Goodison Park</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t11" />
+      <TeamData Side="Away" TeamRef="t1" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855305">
+      <MatchInfo MatchDay="14" MatchType="Regular" Period="PreMatch" Venue_id="2691">
+        <Date>2016-12-03 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t43" />
+      <TeamData Side="Away" TeamRef="t8" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855306">
+      <MatchInfo MatchDay="14" MatchType="Regular" Period="PreMatch" Venue_id="46">
+        <Date>2016-12-03 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Riverside Stadium</Stat>
+      <Stat Type="City">Middlesbrough</Stat>
+      <TeamData Side="Home" TeamRef="t25" />
+      <TeamData Side="Away" TeamRef="t88" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855307">
+      <MatchInfo MatchDay="14" MatchType="Regular" Period="PreMatch" Venue_id="1">
+        <Date>2016-12-03 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">bet365 Stadium</Stat>
+      <Stat Type="City">Stoke</Stat>
+      <TeamData Side="Home" TeamRef="t110" />
+      <TeamData Side="Away" TeamRef="t90" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855308">
+      <MatchInfo MatchDay="14" MatchType="Regular" Period="PreMatch" Venue_id="72">
+        <Date>2016-12-03 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stadium of Light</Stat>
+      <Stat Type="City">Sunderland</Stat>
+      <TeamData Side="Home" TeamRef="t56" />
+      <TeamData Side="Away" TeamRef="t13" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855309">
+      <MatchInfo MatchDay="14" MatchType="Regular" Period="PreMatch" Venue_id="33">
+        <Date>2016-12-03 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">White Hart Lane</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t6" />
+      <TeamData Side="Away" TeamRef="t80" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855310">
+      <MatchInfo MatchDay="14" MatchType="Regular" Period="PreMatch" Venue_id="51">
+        <Date>2016-12-03 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">The Hawthorns</Stat>
+      <Stat Type="City">West Bromwich</Stat>
+      <TeamData Side="Home" TeamRef="t35" />
+      <TeamData Side="Away" TeamRef="t57" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855311">
+      <MatchInfo MatchDay="14" MatchType="Regular" Period="PreMatch" Venue_id="11249">
+        <Date>2016-12-03 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">London Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t21" />
+      <TeamData Side="Away" TeamRef="t3" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855312">
+      <MatchInfo MatchDay="15" MatchType="Regular" Period="PreMatch" Venue_id="3250">
+        <Date>2016-12-10 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Emirates Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t3" />
+      <TeamData Side="Away" TeamRef="t110" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855313">
+      <MatchInfo MatchDay="15" MatchType="Regular" Period="PreMatch" Venue_id="88">
+        <Date>2016-12-10 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Turf Moor</Stat>
+      <Stat Type="City">Burnley</Stat>
+      <TeamData Side="Home" TeamRef="t90" />
+      <TeamData Side="Away" TeamRef="t91" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855314">
+      <MatchInfo MatchDay="15" MatchType="Regular" Period="PreMatch" Venue_id="35">
+        <Date>2016-12-10 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t8" />
+      <TeamData Side="Away" TeamRef="t35" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855315">
+      <MatchInfo MatchDay="15" MatchType="Regular" Period="PreMatch" Venue_id="2638">
+        <Date>2016-12-10 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">KCOM Stadium</Stat>
+      <Stat Type="City">Hull</Stat>
+      <TeamData Side="Home" TeamRef="t88" />
+      <TeamData Side="Away" TeamRef="t31" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855316">
+      <MatchInfo MatchDay="15" MatchType="Regular" Period="PreMatch" Venue_id="2516">
+        <Date>2016-12-10 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">King Power Stadium</Stat>
+      <Stat Type="City">Leicester</Stat>
+      <TeamData Side="Home" TeamRef="t13" />
+      <TeamData Side="Away" TeamRef="t43" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855317">
+      <MatchInfo MatchDay="15" MatchType="Regular" Period="PreMatch" Venue_id="39">
+        <Date>2016-12-10 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t14" />
+      <TeamData Side="Away" TeamRef="t21" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855320">
+      <MatchInfo MatchDay="15" MatchType="Regular" Period="PreMatch" Venue_id="2867">
+        <Date>2016-12-10 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Liberty Stadium</Stat>
+      <Stat Type="City">Swansea</Stat>
+      <TeamData Side="Home" TeamRef="t80" />
+      <TeamData Side="Away" TeamRef="t56" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855321">
+      <MatchInfo MatchDay="15" MatchType="Regular" Period="PreMatch" Venue_id="73">
+        <Date>2016-12-10 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vicarage Road</Stat>
+      <Stat Type="City">Watford</Stat>
+      <TeamData Side="Home" TeamRef="t57" />
+      <TeamData Side="Away" TeamRef="t11" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:43:05+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855318">
+      <MatchInfo MatchDay="15" MatchType="Regular" Period="PreMatch" Venue_id="28">
+        <Date TBC="3">2016-12-11 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t1" />
+      <TeamData Side="Away" TeamRef="t6" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:43:17+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855319">
+      <MatchInfo MatchDay="15" MatchType="Regular" Period="PreMatch" Venue_id="2370">
+        <Date TBC="3">2016-12-11 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">St. Mary&#39;s Stadium</Stat>
+      <Stat Type="City">Southampton</Stat>
+      <TeamData Side="Home" TeamRef="t20" />
+      <TeamData Side="Away" TeamRef="t25" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855322">
+      <MatchInfo MatchDay="16" MatchType="Regular" Period="PreMatch" Venue_id="2734">
+        <Date>2016-12-13 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vitality Stadium</Stat>
+      <Stat Type="City">Bournemouth</Stat>
+      <TeamData Side="Home" TeamRef="t91" />
+      <TeamData Side="Away" TeamRef="t13" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855325">
+      <MatchInfo MatchDay="16" MatchType="Regular" Period="PreMatch" Venue_id="72">
+        <Date>2016-12-13 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stadium of Light</Stat>
+      <Stat Type="City">Sunderland</Stat>
+      <TeamData Side="Home" TeamRef="t56" />
+      <TeamData Side="Away" TeamRef="t8" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855326">
+      <MatchInfo MatchDay="16" MatchType="Regular" Period="PreMatch" Venue_id="51">
+        <Date>2016-12-13 20:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">The Hawthorns</Stat>
+      <Stat Type="City">West Bromwich</Stat>
+      <TeamData Side="Home" TeamRef="t35" />
+      <TeamData Side="Away" TeamRef="t80" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855327">
+      <MatchInfo MatchDay="16" MatchType="Regular" Period="PreMatch" Venue_id="11249">
+        <Date>2016-12-13 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">London Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t21" />
+      <TeamData Side="Away" TeamRef="t90" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:35:16+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855323">
+      <MatchInfo MatchDay="16" MatchType="Regular" Period="PreMatch" Venue_id="48">
+        <Date>2016-12-14 20:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Selhurst Park</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t31" />
+      <TeamData Side="Away" TeamRef="t1" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855328">
+      <MatchInfo MatchDay="16" MatchType="Regular" Period="PreMatch" Venue_id="37">
+        <Date>2016-12-14 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Goodison Park</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t11" />
+      <TeamData Side="Away" TeamRef="t3" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855329">
+      <MatchInfo MatchDay="16" MatchType="Regular" Period="PreMatch" Venue_id="2691">
+        <Date>2016-12-14 20:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t43" />
+      <TeamData Side="Away" TeamRef="t57" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:35:33+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855324">
+      <MatchInfo MatchDay="16" MatchType="Regular" Period="PreMatch" Venue_id="46">
+        <Date>2016-12-14 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Riverside Stadium</Stat>
+      <Stat Type="City">Middlesbrough</Stat>
+      <TeamData Side="Home" TeamRef="t25" />
+      <TeamData Side="Away" TeamRef="t14" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855330">
+      <MatchInfo MatchDay="16" MatchType="Regular" Period="PreMatch" Venue_id="1">
+        <Date>2016-12-14 20:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">bet365 Stadium</Stat>
+      <Stat Type="City">Stoke</Stat>
+      <TeamData Side="Home" TeamRef="t110" />
+      <TeamData Side="Away" TeamRef="t20" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855331">
+      <MatchInfo MatchDay="16" MatchType="Regular" Period="PreMatch" Venue_id="33">
+        <Date>2016-12-14 20:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">White Hart Lane</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t6" />
+      <TeamData Side="Away" TeamRef="t88" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855332">
+      <MatchInfo MatchDay="17" MatchType="Regular" Period="PreMatch" Venue_id="2734">
+        <Date>2016-12-17 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vitality Stadium</Stat>
+      <Stat Type="City">Bournemouth</Stat>
+      <TeamData Side="Home" TeamRef="t91" />
+      <TeamData Side="Away" TeamRef="t20" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855333">
+      <MatchInfo MatchDay="17" MatchType="Regular" Period="PreMatch" Venue_id="48">
+        <Date>2016-12-17 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Selhurst Park</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t31" />
+      <TeamData Side="Away" TeamRef="t8" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855334">
+      <MatchInfo MatchDay="17" MatchType="Regular" Period="PreMatch" Venue_id="37">
+        <Date>2016-12-17 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Goodison Park</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t11" />
+      <TeamData Side="Away" TeamRef="t14" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855335">
+      <MatchInfo MatchDay="17" MatchType="Regular" Period="PreMatch" Venue_id="2691">
+        <Date>2016-12-17 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t43" />
+      <TeamData Side="Away" TeamRef="t3" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855336">
+      <MatchInfo MatchDay="17" MatchType="Regular" Period="PreMatch" Venue_id="46">
+        <Date>2016-12-17 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Riverside Stadium</Stat>
+      <Stat Type="City">Middlesbrough</Stat>
+      <TeamData Side="Home" TeamRef="t25" />
+      <TeamData Side="Away" TeamRef="t80" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855337">
+      <MatchInfo MatchDay="17" MatchType="Regular" Period="PreMatch" Venue_id="1">
+        <Date>2016-12-17 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">bet365 Stadium</Stat>
+      <Stat Type="City">Stoke</Stat>
+      <TeamData Side="Home" TeamRef="t110" />
+      <TeamData Side="Away" TeamRef="t13" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855338">
+      <MatchInfo MatchDay="17" MatchType="Regular" Period="PreMatch" Venue_id="72">
+        <Date>2016-12-17 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stadium of Light</Stat>
+      <Stat Type="City">Sunderland</Stat>
+      <TeamData Side="Home" TeamRef="t56" />
+      <TeamData Side="Away" TeamRef="t57" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855339">
+      <MatchInfo MatchDay="17" MatchType="Regular" Period="PreMatch" Venue_id="33">
+        <Date>2016-12-17 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">White Hart Lane</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t6" />
+      <TeamData Side="Away" TeamRef="t90" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855340">
+      <MatchInfo MatchDay="17" MatchType="Regular" Period="PreMatch" Venue_id="51">
+        <Date>2016-12-17 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">The Hawthorns</Stat>
+      <Stat Type="City">West Bromwich</Stat>
+      <TeamData Side="Home" TeamRef="t35" />
+      <TeamData Side="Away" TeamRef="t1" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855341">
+      <MatchInfo MatchDay="17" MatchType="Regular" Period="PreMatch" Venue_id="11249">
+        <Date>2016-12-17 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">London Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t21" />
+      <TeamData Side="Away" TeamRef="t88" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855342">
+      <MatchInfo MatchDay="18" MatchType="Regular" Period="PreMatch" Venue_id="3250">
+        <Date>2016-12-26 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Emirates Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t3" />
+      <TeamData Side="Away" TeamRef="t35" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855343">
+      <MatchInfo MatchDay="18" MatchType="Regular" Period="PreMatch" Venue_id="88">
+        <Date>2016-12-26 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Turf Moor</Stat>
+      <Stat Type="City">Burnley</Stat>
+      <TeamData Side="Home" TeamRef="t90" />
+      <TeamData Side="Away" TeamRef="t25" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855344">
+      <MatchInfo MatchDay="18" MatchType="Regular" Period="PreMatch" Venue_id="35">
+        <Date>2016-12-26 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t8" />
+      <TeamData Side="Away" TeamRef="t91" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855345">
+      <MatchInfo MatchDay="18" MatchType="Regular" Period="PreMatch" Venue_id="2638">
+        <Date>2016-12-26 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">KCOM Stadium</Stat>
+      <Stat Type="City">Hull</Stat>
+      <TeamData Side="Home" TeamRef="t88" />
+      <TeamData Side="Away" TeamRef="t43" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855346">
+      <MatchInfo MatchDay="18" MatchType="Regular" Period="PreMatch" Venue_id="2516">
+        <Date>2016-12-26 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">King Power Stadium</Stat>
+      <Stat Type="City">Leicester</Stat>
+      <TeamData Side="Home" TeamRef="t13" />
+      <TeamData Side="Away" TeamRef="t11" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855347">
+      <MatchInfo MatchDay="18" MatchType="Regular" Period="PreMatch" Venue_id="39">
+        <Date>2016-12-26 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t14" />
+      <TeamData Side="Away" TeamRef="t110" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855348">
+      <MatchInfo MatchDay="18" MatchType="Regular" Period="PreMatch" Venue_id="28">
+        <Date>2016-12-26 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t1" />
+      <TeamData Side="Away" TeamRef="t56" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855349">
+      <MatchInfo MatchDay="18" MatchType="Regular" Period="PreMatch" Venue_id="2370">
+        <Date>2016-12-26 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">St. Mary&#39;s Stadium</Stat>
+      <Stat Type="City">Southampton</Stat>
+      <TeamData Side="Home" TeamRef="t20" />
+      <TeamData Side="Away" TeamRef="t6" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855350">
+      <MatchInfo MatchDay="18" MatchType="Regular" Period="PreMatch" Venue_id="2867">
+        <Date>2016-12-26 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Liberty Stadium</Stat>
+      <Stat Type="City">Swansea</Stat>
+      <TeamData Side="Home" TeamRef="t80" />
+      <TeamData Side="Away" TeamRef="t21" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855351">
+      <MatchInfo MatchDay="18" MatchType="Regular" Period="PreMatch" Venue_id="73">
+        <Date>2016-12-26 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vicarage Road</Stat>
+      <Stat Type="City">Watford</Stat>
+      <TeamData Side="Home" TeamRef="t57" />
+      <TeamData Side="Away" TeamRef="t31" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855352">
+      <MatchInfo MatchDay="19" MatchType="Regular" Period="PreMatch" Venue_id="3250">
+        <Date>2016-12-31 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Emirates Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t3" />
+      <TeamData Side="Away" TeamRef="t31" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855353">
+      <MatchInfo MatchDay="19" MatchType="Regular" Period="PreMatch" Venue_id="88">
+        <Date>2016-12-31 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Turf Moor</Stat>
+      <Stat Type="City">Burnley</Stat>
+      <TeamData Side="Home" TeamRef="t90" />
+      <TeamData Side="Away" TeamRef="t56" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855354">
+      <MatchInfo MatchDay="19" MatchType="Regular" Period="PreMatch" Venue_id="35">
+        <Date>2016-12-31 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t8" />
+      <TeamData Side="Away" TeamRef="t110" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855355">
+      <MatchInfo MatchDay="19" MatchType="Regular" Period="PreMatch" Venue_id="2638">
+        <Date>2016-12-31 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">KCOM Stadium</Stat>
+      <Stat Type="City">Hull</Stat>
+      <TeamData Side="Home" TeamRef="t88" />
+      <TeamData Side="Away" TeamRef="t11" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855356">
+      <MatchInfo MatchDay="19" MatchType="Regular" Period="PreMatch" Venue_id="2516">
+        <Date>2016-12-31 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">King Power Stadium</Stat>
+      <Stat Type="City">Leicester</Stat>
+      <TeamData Side="Home" TeamRef="t13" />
+      <TeamData Side="Away" TeamRef="t21" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855357">
+      <MatchInfo MatchDay="19" MatchType="Regular" Period="PreMatch" Venue_id="39">
+        <Date>2016-12-31 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t14" />
+      <TeamData Side="Away" TeamRef="t43" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855358">
+      <MatchInfo MatchDay="19" MatchType="Regular" Period="PreMatch" Venue_id="28">
+        <Date>2016-12-31 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t1" />
+      <TeamData Side="Away" TeamRef="t25" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855359">
+      <MatchInfo MatchDay="19" MatchType="Regular" Period="PreMatch" Venue_id="2370">
+        <Date>2016-12-31 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">St. Mary&#39;s Stadium</Stat>
+      <Stat Type="City">Southampton</Stat>
+      <TeamData Side="Home" TeamRef="t20" />
+      <TeamData Side="Away" TeamRef="t35" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855360">
+      <MatchInfo MatchDay="19" MatchType="Regular" Period="PreMatch" Venue_id="2867">
+        <Date>2016-12-31 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Liberty Stadium</Stat>
+      <Stat Type="City">Swansea</Stat>
+      <TeamData Side="Home" TeamRef="t80" />
+      <TeamData Side="Away" TeamRef="t91" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855361">
+      <MatchInfo MatchDay="19" MatchType="Regular" Period="PreMatch" Venue_id="73">
+        <Date>2016-12-31 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vicarage Road</Stat>
+      <Stat Type="City">Watford</Stat>
+      <TeamData Side="Home" TeamRef="t57" />
+      <TeamData Side="Away" TeamRef="t6" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855362">
+      <MatchInfo MatchDay="20" MatchType="Regular" Period="PreMatch" Venue_id="2734">
+        <Date>2017-01-02 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vitality Stadium</Stat>
+      <Stat Type="City">Bournemouth</Stat>
+      <TeamData Side="Home" TeamRef="t91" />
+      <TeamData Side="Away" TeamRef="t3" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855363">
+      <MatchInfo MatchDay="20" MatchType="Regular" Period="PreMatch" Venue_id="48">
+        <Date>2017-01-02 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Selhurst Park</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t31" />
+      <TeamData Side="Away" TeamRef="t80" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855364">
+      <MatchInfo MatchDay="20" MatchType="Regular" Period="PreMatch" Venue_id="37">
+        <Date>2017-01-02 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Goodison Park</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t11" />
+      <TeamData Side="Away" TeamRef="t20" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855365">
+      <MatchInfo MatchDay="20" MatchType="Regular" Period="PreMatch" Venue_id="2691">
+        <Date>2017-01-02 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t43" />
+      <TeamData Side="Away" TeamRef="t90" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855366">
+      <MatchInfo MatchDay="20" MatchType="Regular" Period="PreMatch" Venue_id="46">
+        <Date>2017-01-02 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Riverside Stadium</Stat>
+      <Stat Type="City">Middlesbrough</Stat>
+      <TeamData Side="Home" TeamRef="t25" />
+      <TeamData Side="Away" TeamRef="t13" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855367">
+      <MatchInfo MatchDay="20" MatchType="Regular" Period="PreMatch" Venue_id="1">
+        <Date>2017-01-02 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">bet365 Stadium</Stat>
+      <Stat Type="City">Stoke</Stat>
+      <TeamData Side="Home" TeamRef="t110" />
+      <TeamData Side="Away" TeamRef="t57" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855368">
+      <MatchInfo MatchDay="20" MatchType="Regular" Period="PreMatch" Venue_id="72">
+        <Date>2017-01-02 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stadium of Light</Stat>
+      <Stat Type="City">Sunderland</Stat>
+      <TeamData Side="Home" TeamRef="t56" />
+      <TeamData Side="Away" TeamRef="t14" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855369">
+      <MatchInfo MatchDay="20" MatchType="Regular" Period="PreMatch" Venue_id="33">
+        <Date>2017-01-02 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">White Hart Lane</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t6" />
+      <TeamData Side="Away" TeamRef="t8" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855370">
+      <MatchInfo MatchDay="20" MatchType="Regular" Period="PreMatch" Venue_id="51">
+        <Date>2017-01-02 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">The Hawthorns</Stat>
+      <Stat Type="City">West Bromwich</Stat>
+      <TeamData Side="Home" TeamRef="t35" />
+      <TeamData Side="Away" TeamRef="t88" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855371">
+      <MatchInfo MatchDay="20" MatchType="Regular" Period="PreMatch" Venue_id="11249">
+        <Date>2017-01-02 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">London Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t21" />
+      <TeamData Side="Away" TeamRef="t1" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855372">
+      <MatchInfo MatchDay="21" MatchType="Regular" Period="PreMatch" Venue_id="88">
+        <Date>2017-01-14 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Turf Moor</Stat>
+      <Stat Type="City">Burnley</Stat>
+      <TeamData Side="Home" TeamRef="t90" />
+      <TeamData Side="Away" TeamRef="t20" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855373">
+      <MatchInfo MatchDay="21" MatchType="Regular" Period="PreMatch" Venue_id="37">
+        <Date>2017-01-14 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Goodison Park</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t11" />
+      <TeamData Side="Away" TeamRef="t43" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855374">
+      <MatchInfo MatchDay="21" MatchType="Regular" Period="PreMatch" Venue_id="2638">
+        <Date>2017-01-14 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">KCOM Stadium</Stat>
+      <Stat Type="City">Hull</Stat>
+      <TeamData Side="Home" TeamRef="t88" />
+      <TeamData Side="Away" TeamRef="t91" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855375">
+      <MatchInfo MatchDay="21" MatchType="Regular" Period="PreMatch" Venue_id="2516">
+        <Date>2017-01-14 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">King Power Stadium</Stat>
+      <Stat Type="City">Leicester</Stat>
+      <TeamData Side="Home" TeamRef="t13" />
+      <TeamData Side="Away" TeamRef="t8" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855376">
+      <MatchInfo MatchDay="21" MatchType="Regular" Period="PreMatch" Venue_id="28">
+        <Date>2017-01-14 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t1" />
+      <TeamData Side="Away" TeamRef="t14" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855377">
+      <MatchInfo MatchDay="21" MatchType="Regular" Period="PreMatch" Venue_id="72">
+        <Date>2017-01-14 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stadium of Light</Stat>
+      <Stat Type="City">Sunderland</Stat>
+      <TeamData Side="Home" TeamRef="t56" />
+      <TeamData Side="Away" TeamRef="t110" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855378">
+      <MatchInfo MatchDay="21" MatchType="Regular" Period="PreMatch" Venue_id="2867">
+        <Date>2017-01-14 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Liberty Stadium</Stat>
+      <Stat Type="City">Swansea</Stat>
+      <TeamData Side="Home" TeamRef="t80" />
+      <TeamData Side="Away" TeamRef="t3" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855379">
+      <MatchInfo MatchDay="21" MatchType="Regular" Period="PreMatch" Venue_id="33">
+        <Date>2017-01-14 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">White Hart Lane</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t6" />
+      <TeamData Side="Away" TeamRef="t35" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855380">
+      <MatchInfo MatchDay="21" MatchType="Regular" Period="PreMatch" Venue_id="73">
+        <Date>2017-01-14 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vicarage Road</Stat>
+      <Stat Type="City">Watford</Stat>
+      <TeamData Side="Home" TeamRef="t57" />
+      <TeamData Side="Away" TeamRef="t25" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855381">
+      <MatchInfo MatchDay="21" MatchType="Regular" Period="PreMatch" Venue_id="11249">
+        <Date>2017-01-14 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">London Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t21" />
+      <TeamData Side="Away" TeamRef="t31" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855383">
+      <MatchInfo MatchDay="22" MatchType="Regular" Period="PreMatch" Venue_id="3250">
+        <Date>2017-01-21 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Emirates Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t3" />
+      <TeamData Side="Away" TeamRef="t90" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855382">
+      <MatchInfo MatchDay="22" MatchType="Regular" Period="PreMatch" Venue_id="2734">
+        <Date>2017-01-21 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vitality Stadium</Stat>
+      <Stat Type="City">Bournemouth</Stat>
+      <TeamData Side="Home" TeamRef="t91" />
+      <TeamData Side="Away" TeamRef="t57" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855384">
+      <MatchInfo MatchDay="22" MatchType="Regular" Period="PreMatch" Venue_id="35">
+        <Date>2017-01-21 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t8" />
+      <TeamData Side="Away" TeamRef="t88" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855385">
+      <MatchInfo MatchDay="22" MatchType="Regular" Period="PreMatch" Venue_id="48">
+        <Date>2017-01-21 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Selhurst Park</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t31" />
+      <TeamData Side="Away" TeamRef="t11" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855386">
+      <MatchInfo MatchDay="22" MatchType="Regular" Period="PreMatch" Venue_id="39">
+        <Date>2017-01-21 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t14" />
+      <TeamData Side="Away" TeamRef="t80" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855387">
+      <MatchInfo MatchDay="22" MatchType="Regular" Period="PreMatch" Venue_id="2691">
+        <Date>2017-01-21 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t43" />
+      <TeamData Side="Away" TeamRef="t6" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855388">
+      <MatchInfo MatchDay="22" MatchType="Regular" Period="PreMatch" Venue_id="46">
+        <Date>2017-01-21 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Riverside Stadium</Stat>
+      <Stat Type="City">Middlesbrough</Stat>
+      <TeamData Side="Home" TeamRef="t25" />
+      <TeamData Side="Away" TeamRef="t21" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855389">
+      <MatchInfo MatchDay="22" MatchType="Regular" Period="PreMatch" Venue_id="2370">
+        <Date>2017-01-21 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">St. Mary&#39;s Stadium</Stat>
+      <Stat Type="City">Southampton</Stat>
+      <TeamData Side="Home" TeamRef="t20" />
+      <TeamData Side="Away" TeamRef="t13" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855390">
+      <MatchInfo MatchDay="22" MatchType="Regular" Period="PreMatch" Venue_id="1">
+        <Date>2017-01-21 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">bet365 Stadium</Stat>
+      <Stat Type="City">Stoke</Stat>
+      <TeamData Side="Home" TeamRef="t110" />
+      <TeamData Side="Away" TeamRef="t1" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855391">
+      <MatchInfo MatchDay="22" MatchType="Regular" Period="PreMatch" Venue_id="51">
+        <Date>2017-01-21 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">The Hawthorns</Stat>
+      <Stat Type="City">West Bromwich</Stat>
+      <TeamData Side="Home" TeamRef="t35" />
+      <TeamData Side="Away" TeamRef="t56" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855393">
+      <MatchInfo MatchDay="23" MatchType="Regular" Period="PreMatch" Venue_id="3250">
+        <Date>2017-01-31 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Emirates Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t3" />
+      <TeamData Side="Away" TeamRef="t57" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855392">
+      <MatchInfo MatchDay="23" MatchType="Regular" Period="PreMatch" Venue_id="2734">
+        <Date>2017-01-31 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vitality Stadium</Stat>
+      <Stat Type="City">Bournemouth</Stat>
+      <TeamData Side="Home" TeamRef="t91" />
+      <TeamData Side="Away" TeamRef="t31" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855394">
+      <MatchInfo MatchDay="23" MatchType="Regular" Period="PreMatch" Venue_id="88">
+        <Date>2017-01-31 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Turf Moor</Stat>
+      <Stat Type="City">Burnley</Stat>
+      <TeamData Side="Home" TeamRef="t90" />
+      <TeamData Side="Away" TeamRef="t13" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855396">
+      <MatchInfo MatchDay="23" MatchType="Regular" Period="PreMatch" Venue_id="46">
+        <Date>2017-01-31 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Riverside Stadium</Stat>
+      <Stat Type="City">Middlesbrough</Stat>
+      <TeamData Side="Home" TeamRef="t25" />
+      <TeamData Side="Away" TeamRef="t35" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855397">
+      <MatchInfo MatchDay="23" MatchType="Regular" Period="PreMatch" Venue_id="72">
+        <Date>2017-01-31 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stadium of Light</Stat>
+      <Stat Type="City">Sunderland</Stat>
+      <TeamData Side="Home" TeamRef="t56" />
+      <TeamData Side="Away" TeamRef="t6" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855398">
+      <MatchInfo MatchDay="23" MatchType="Regular" Period="PreMatch" Venue_id="2867">
+        <Date>2017-01-31 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Liberty Stadium</Stat>
+      <Stat Type="City">Swansea</Stat>
+      <TeamData Side="Home" TeamRef="t80" />
+      <TeamData Side="Away" TeamRef="t20" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855399">
+      <MatchInfo MatchDay="23" MatchType="Regular" Period="PreMatch" Venue_id="11249">
+        <Date>2017-01-31 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">London Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t21" />
+      <TeamData Side="Away" TeamRef="t43" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855400">
+      <MatchInfo MatchDay="23" MatchType="Regular" Period="PreMatch" Venue_id="39">
+        <Date>2017-02-01 20:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t14" />
+      <TeamData Side="Away" TeamRef="t8" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:37:33+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855395">
+      <MatchInfo MatchDay="23" MatchType="Regular" Period="PreMatch" Venue_id="28">
+        <Date>2017-02-01 20:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t1" />
+      <TeamData Side="Away" TeamRef="t88" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855401">
+      <MatchInfo MatchDay="23" MatchType="Regular" Period="PreMatch" Venue_id="1">
+        <Date>2017-02-01 20:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">bet365 Stadium</Stat>
+      <Stat Type="City">Stoke</Stat>
+      <TeamData Side="Home" TeamRef="t110" />
+      <TeamData Side="Away" TeamRef="t11" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855402">
+      <MatchInfo MatchDay="24" MatchType="Regular" Period="PreMatch" Venue_id="35">
+        <Date>2017-02-04 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t8" />
+      <TeamData Side="Away" TeamRef="t3" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855403">
+      <MatchInfo MatchDay="24" MatchType="Regular" Period="PreMatch" Venue_id="48">
+        <Date>2017-02-04 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Selhurst Park</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t31" />
+      <TeamData Side="Away" TeamRef="t56" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855404">
+      <MatchInfo MatchDay="24" MatchType="Regular" Period="PreMatch" Venue_id="37">
+        <Date>2017-02-04 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Goodison Park</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t11" />
+      <TeamData Side="Away" TeamRef="t91" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855405">
+      <MatchInfo MatchDay="24" MatchType="Regular" Period="PreMatch" Venue_id="2638">
+        <Date>2017-02-04 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">KCOM Stadium</Stat>
+      <Stat Type="City">Hull</Stat>
+      <TeamData Side="Home" TeamRef="t88" />
+      <TeamData Side="Away" TeamRef="t14" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855406">
+      <MatchInfo MatchDay="24" MatchType="Regular" Period="PreMatch" Venue_id="2516">
+        <Date>2017-02-04 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">King Power Stadium</Stat>
+      <Stat Type="City">Leicester</Stat>
+      <TeamData Side="Home" TeamRef="t13" />
+      <TeamData Side="Away" TeamRef="t1" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855407">
+      <MatchInfo MatchDay="24" MatchType="Regular" Period="PreMatch" Venue_id="2691">
+        <Date>2017-02-04 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t43" />
+      <TeamData Side="Away" TeamRef="t80" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855408">
+      <MatchInfo MatchDay="24" MatchType="Regular" Period="PreMatch" Venue_id="2370">
+        <Date>2017-02-04 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">St. Mary&#39;s Stadium</Stat>
+      <Stat Type="City">Southampton</Stat>
+      <TeamData Side="Home" TeamRef="t20" />
+      <TeamData Side="Away" TeamRef="t21" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855409">
+      <MatchInfo MatchDay="24" MatchType="Regular" Period="PreMatch" Venue_id="33">
+        <Date>2017-02-04 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">White Hart Lane</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t6" />
+      <TeamData Side="Away" TeamRef="t25" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855410">
+      <MatchInfo MatchDay="24" MatchType="Regular" Period="PreMatch" Venue_id="73">
+        <Date>2017-02-04 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vicarage Road</Stat>
+      <Stat Type="City">Watford</Stat>
+      <TeamData Side="Home" TeamRef="t57" />
+      <TeamData Side="Away" TeamRef="t90" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855411">
+      <MatchInfo MatchDay="24" MatchType="Regular" Period="PreMatch" Venue_id="51">
+        <Date>2017-02-04 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">The Hawthorns</Stat>
+      <Stat Type="City">West Bromwich</Stat>
+      <TeamData Side="Home" TeamRef="t35" />
+      <TeamData Side="Away" TeamRef="t110" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855413">
+      <MatchInfo MatchDay="25" MatchType="Regular" Period="PreMatch" Venue_id="3250">
+        <Date>2017-02-11 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Emirates Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t3" />
+      <TeamData Side="Away" TeamRef="t88" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855412">
+      <MatchInfo MatchDay="25" MatchType="Regular" Period="PreMatch" Venue_id="2734">
+        <Date>2017-02-11 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vitality Stadium</Stat>
+      <Stat Type="City">Bournemouth</Stat>
+      <TeamData Side="Home" TeamRef="t91" />
+      <TeamData Side="Away" TeamRef="t43" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855414">
+      <MatchInfo MatchDay="25" MatchType="Regular" Period="PreMatch" Venue_id="88">
+        <Date>2017-02-11 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Turf Moor</Stat>
+      <Stat Type="City">Burnley</Stat>
+      <TeamData Side="Home" TeamRef="t90" />
+      <TeamData Side="Away" TeamRef="t8" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855415">
+      <MatchInfo MatchDay="25" MatchType="Regular" Period="PreMatch" Venue_id="39">
+        <Date>2017-02-11 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t14" />
+      <TeamData Side="Away" TeamRef="t6" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855416">
+      <MatchInfo MatchDay="25" MatchType="Regular" Period="PreMatch" Venue_id="28">
+        <Date>2017-02-11 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t1" />
+      <TeamData Side="Away" TeamRef="t57" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855417">
+      <MatchInfo MatchDay="25" MatchType="Regular" Period="PreMatch" Venue_id="46">
+        <Date>2017-02-11 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Riverside Stadium</Stat>
+      <Stat Type="City">Middlesbrough</Stat>
+      <TeamData Side="Home" TeamRef="t25" />
+      <TeamData Side="Away" TeamRef="t11" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855418">
+      <MatchInfo MatchDay="25" MatchType="Regular" Period="PreMatch" Venue_id="1">
+        <Date>2017-02-11 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">bet365 Stadium</Stat>
+      <Stat Type="City">Stoke</Stat>
+      <TeamData Side="Home" TeamRef="t110" />
+      <TeamData Side="Away" TeamRef="t31" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855419">
+      <MatchInfo MatchDay="25" MatchType="Regular" Period="PreMatch" Venue_id="72">
+        <Date>2017-02-11 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stadium of Light</Stat>
+      <Stat Type="City">Sunderland</Stat>
+      <TeamData Side="Home" TeamRef="t56" />
+      <TeamData Side="Away" TeamRef="t20" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855420">
+      <MatchInfo MatchDay="25" MatchType="Regular" Period="PreMatch" Venue_id="2867">
+        <Date>2017-02-11 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Liberty Stadium</Stat>
+      <Stat Type="City">Swansea</Stat>
+      <TeamData Side="Home" TeamRef="t80" />
+      <TeamData Side="Away" TeamRef="t13" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855421">
+      <MatchInfo MatchDay="25" MatchType="Regular" Period="PreMatch" Venue_id="11249">
+        <Date>2017-02-11 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">London Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t21" />
+      <TeamData Side="Away" TeamRef="t35" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855422">
+      <MatchInfo MatchDay="26" MatchType="Regular" Period="PreMatch" Venue_id="35">
+        <Date>2017-02-25 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t8" />
+      <TeamData Side="Away" TeamRef="t80" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855423">
+      <MatchInfo MatchDay="26" MatchType="Regular" Period="PreMatch" Venue_id="48">
+        <Date>2017-02-25 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Selhurst Park</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t31" />
+      <TeamData Side="Away" TeamRef="t25" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855424">
+      <MatchInfo MatchDay="26" MatchType="Regular" Period="PreMatch" Venue_id="37">
+        <Date>2017-02-25 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Goodison Park</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t11" />
+      <TeamData Side="Away" TeamRef="t56" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855425">
+      <MatchInfo MatchDay="26" MatchType="Regular" Period="PreMatch" Venue_id="2638">
+        <Date>2017-02-25 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">KCOM Stadium</Stat>
+      <Stat Type="City">Hull</Stat>
+      <TeamData Side="Home" TeamRef="t88" />
+      <TeamData Side="Away" TeamRef="t90" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855426">
+      <MatchInfo MatchDay="26" MatchType="Regular" Period="PreMatch" Venue_id="2516">
+        <Date>2017-02-25 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">King Power Stadium</Stat>
+      <Stat Type="City">Leicester</Stat>
+      <TeamData Side="Home" TeamRef="t13" />
+      <TeamData Side="Away" TeamRef="t14" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855427">
+      <MatchInfo MatchDay="26" MatchType="Regular" Period="PreMatch" Venue_id="2691">
+        <Date>2017-02-25 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t43" />
+      <TeamData Side="Away" TeamRef="t1" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855428">
+      <MatchInfo MatchDay="26" MatchType="Regular" Period="PreMatch" Venue_id="2370">
+        <Date>2017-02-25 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">St. Mary&#39;s Stadium</Stat>
+      <Stat Type="City">Southampton</Stat>
+      <TeamData Side="Home" TeamRef="t20" />
+      <TeamData Side="Away" TeamRef="t3" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855429">
+      <MatchInfo MatchDay="26" MatchType="Regular" Period="PreMatch" Venue_id="33">
+        <Date>2017-02-25 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">White Hart Lane</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t6" />
+      <TeamData Side="Away" TeamRef="t110" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855430">
+      <MatchInfo MatchDay="26" MatchType="Regular" Period="PreMatch" Venue_id="73">
+        <Date>2017-02-25 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vicarage Road</Stat>
+      <Stat Type="City">Watford</Stat>
+      <TeamData Side="Home" TeamRef="t57" />
+      <TeamData Side="Away" TeamRef="t21" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855431">
+      <MatchInfo MatchDay="26" MatchType="Regular" Period="PreMatch" Venue_id="51">
+        <Date>2017-02-25 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">The Hawthorns</Stat>
+      <Stat Type="City">West Bromwich</Stat>
+      <TeamData Side="Home" TeamRef="t35" />
+      <TeamData Side="Away" TeamRef="t91" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855432">
+      <MatchInfo MatchDay="27" MatchType="Regular" Period="PreMatch" Venue_id="2516">
+        <Date>2017-03-04 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">King Power Stadium</Stat>
+      <Stat Type="City">Leicester</Stat>
+      <TeamData Side="Home" TeamRef="t13" />
+      <TeamData Side="Away" TeamRef="t88" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855433">
+      <MatchInfo MatchDay="27" MatchType="Regular" Period="PreMatch" Venue_id="39">
+        <Date>2017-03-04 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t14" />
+      <TeamData Side="Away" TeamRef="t3" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855434">
+      <MatchInfo MatchDay="27" MatchType="Regular" Period="PreMatch" Venue_id="28">
+        <Date>2017-03-04 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t1" />
+      <TeamData Side="Away" TeamRef="t91" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855435">
+      <MatchInfo MatchDay="27" MatchType="Regular" Period="PreMatch" Venue_id="1">
+        <Date>2017-03-04 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">bet365 Stadium</Stat>
+      <Stat Type="City">Stoke</Stat>
+      <TeamData Side="Home" TeamRef="t110" />
+      <TeamData Side="Away" TeamRef="t25" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855436">
+      <MatchInfo MatchDay="27" MatchType="Regular" Period="PreMatch" Venue_id="72">
+        <Date>2017-03-04 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stadium of Light</Stat>
+      <Stat Type="City">Sunderland</Stat>
+      <TeamData Side="Home" TeamRef="t56" />
+      <TeamData Side="Away" TeamRef="t43" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855437">
+      <MatchInfo MatchDay="27" MatchType="Regular" Period="PreMatch" Venue_id="2867">
+        <Date>2017-03-04 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Liberty Stadium</Stat>
+      <Stat Type="City">Swansea</Stat>
+      <TeamData Side="Home" TeamRef="t80" />
+      <TeamData Side="Away" TeamRef="t90" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855438">
+      <MatchInfo MatchDay="27" MatchType="Regular" Period="PreMatch" Venue_id="33">
+        <Date>2017-03-04 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">White Hart Lane</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t6" />
+      <TeamData Side="Away" TeamRef="t11" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855439">
+      <MatchInfo MatchDay="27" MatchType="Regular" Period="PreMatch" Venue_id="73">
+        <Date>2017-03-04 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vicarage Road</Stat>
+      <Stat Type="City">Watford</Stat>
+      <TeamData Side="Home" TeamRef="t57" />
+      <TeamData Side="Away" TeamRef="t20" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855440">
+      <MatchInfo MatchDay="27" MatchType="Regular" Period="PreMatch" Venue_id="51">
+        <Date>2017-03-04 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">The Hawthorns</Stat>
+      <Stat Type="City">West Bromwich</Stat>
+      <TeamData Side="Home" TeamRef="t35" />
+      <TeamData Side="Away" TeamRef="t31" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855441">
+      <MatchInfo MatchDay="27" MatchType="Regular" Period="PreMatch" Venue_id="11249">
+        <Date>2017-03-04 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">London Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t21" />
+      <TeamData Side="Away" TeamRef="t8" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855443">
+      <MatchInfo MatchDay="28" MatchType="Regular" Period="PreMatch" Venue_id="3250">
+        <Date>2017-03-11 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Emirates Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t3" />
+      <TeamData Side="Away" TeamRef="t13" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855442">
+      <MatchInfo MatchDay="28" MatchType="Regular" Period="PreMatch" Venue_id="2734">
+        <Date>2017-03-11 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vitality Stadium</Stat>
+      <Stat Type="City">Bournemouth</Stat>
+      <TeamData Side="Home" TeamRef="t91" />
+      <TeamData Side="Away" TeamRef="t21" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855445">
+      <MatchInfo MatchDay="28" MatchType="Regular" Period="PreMatch" Venue_id="35">
+        <Date>2017-03-11 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t8" />
+      <TeamData Side="Away" TeamRef="t57" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855446">
+      <MatchInfo MatchDay="28" MatchType="Regular" Period="PreMatch" Venue_id="48">
+        <Date>2017-03-11 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Selhurst Park</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t31" />
+      <TeamData Side="Away" TeamRef="t6" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855447">
+      <MatchInfo MatchDay="28" MatchType="Regular" Period="PreMatch" Venue_id="37">
+        <Date>2017-03-11 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Goodison Park</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t11" />
+      <TeamData Side="Away" TeamRef="t35" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855448">
+      <MatchInfo MatchDay="28" MatchType="Regular" Period="PreMatch" Venue_id="2638">
+        <Date>2017-03-11 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">KCOM Stadium</Stat>
+      <Stat Type="City">Hull</Stat>
+      <TeamData Side="Home" TeamRef="t88" />
+      <TeamData Side="Away" TeamRef="t80" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855449">
+      <MatchInfo MatchDay="28" MatchType="Regular" Period="PreMatch" Venue_id="2691">
+        <Date>2017-03-11 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t43" />
+      <TeamData Side="Away" TeamRef="t110" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855450">
+      <MatchInfo MatchDay="28" MatchType="Regular" Period="PreMatch" Venue_id="46">
+        <Date>2017-03-11 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Riverside Stadium</Stat>
+      <Stat Type="City">Middlesbrough</Stat>
+      <TeamData Side="Home" TeamRef="t25" />
+      <TeamData Side="Away" TeamRef="t56" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855451">
+      <MatchInfo MatchDay="28" MatchType="Regular" Period="PreMatch" Venue_id="2370">
+        <Date>2017-03-11 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">St. Mary&#39;s Stadium</Stat>
+      <Stat Type="City">Southampton</Stat>
+      <TeamData Side="Home" TeamRef="t20" />
+      <TeamData Side="Away" TeamRef="t1" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:24:43+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855183">
+      <MatchInfo MatchDay="28" MatchType="Regular" Period="PreMatch" Venue_id="39">
+        <Date>2017-03-12 16:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t14" />
+      <TeamData Side="Away" TeamRef="t90" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855452">
+      <MatchInfo MatchDay="29" MatchType="Regular" Period="PreMatch" Venue_id="2734">
+        <Date>2017-03-18 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vitality Stadium</Stat>
+      <Stat Type="City">Bournemouth</Stat>
+      <TeamData Side="Home" TeamRef="t91" />
+      <TeamData Side="Away" TeamRef="t80" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855453">
+      <MatchInfo MatchDay="29" MatchType="Regular" Period="PreMatch" Venue_id="48">
+        <Date>2017-03-18 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Selhurst Park</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t31" />
+      <TeamData Side="Away" TeamRef="t57" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855454">
+      <MatchInfo MatchDay="29" MatchType="Regular" Period="PreMatch" Venue_id="37">
+        <Date>2017-03-18 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Goodison Park</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t11" />
+      <TeamData Side="Away" TeamRef="t88" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855455">
+      <MatchInfo MatchDay="29" MatchType="Regular" Period="PreMatch" Venue_id="2691">
+        <Date>2017-03-18 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t43" />
+      <TeamData Side="Away" TeamRef="t14" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855456">
+      <MatchInfo MatchDay="29" MatchType="Regular" Period="PreMatch" Venue_id="46">
+        <Date>2017-03-18 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Riverside Stadium</Stat>
+      <Stat Type="City">Middlesbrough</Stat>
+      <TeamData Side="Home" TeamRef="t25" />
+      <TeamData Side="Away" TeamRef="t1" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855457">
+      <MatchInfo MatchDay="29" MatchType="Regular" Period="PreMatch" Venue_id="1">
+        <Date>2017-03-18 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">bet365 Stadium</Stat>
+      <Stat Type="City">Stoke</Stat>
+      <TeamData Side="Home" TeamRef="t110" />
+      <TeamData Side="Away" TeamRef="t8" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855458">
+      <MatchInfo MatchDay="29" MatchType="Regular" Period="PreMatch" Venue_id="72">
+        <Date>2017-03-18 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stadium of Light</Stat>
+      <Stat Type="City">Sunderland</Stat>
+      <TeamData Side="Home" TeamRef="t56" />
+      <TeamData Side="Away" TeamRef="t90" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855459">
+      <MatchInfo MatchDay="29" MatchType="Regular" Period="PreMatch" Venue_id="33">
+        <Date>2017-03-18 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">White Hart Lane</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t6" />
+      <TeamData Side="Away" TeamRef="t20" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855460">
+      <MatchInfo MatchDay="29" MatchType="Regular" Period="PreMatch" Venue_id="51">
+        <Date>2017-03-18 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">The Hawthorns</Stat>
+      <Stat Type="City">West Bromwich</Stat>
+      <TeamData Side="Home" TeamRef="t35" />
+      <TeamData Side="Away" TeamRef="t3" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855461">
+      <MatchInfo MatchDay="29" MatchType="Regular" Period="PreMatch" Venue_id="11249">
+        <Date>2017-03-18 15:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">London Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t21" />
+      <TeamData Side="Away" TeamRef="t13" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855462">
+      <MatchInfo MatchDay="30" MatchType="Regular" Period="PreMatch" Venue_id="3250">
+        <Date>2017-04-01 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Emirates Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t3" />
+      <TeamData Side="Away" TeamRef="t43" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855463">
+      <MatchInfo MatchDay="30" MatchType="Regular" Period="PreMatch" Venue_id="88">
+        <Date>2017-04-01 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Turf Moor</Stat>
+      <Stat Type="City">Burnley</Stat>
+      <TeamData Side="Home" TeamRef="t90" />
+      <TeamData Side="Away" TeamRef="t6" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855464">
+      <MatchInfo MatchDay="30" MatchType="Regular" Period="PreMatch" Venue_id="35">
+        <Date>2017-04-01 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t8" />
+      <TeamData Side="Away" TeamRef="t31" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855465">
+      <MatchInfo MatchDay="30" MatchType="Regular" Period="PreMatch" Venue_id="2638">
+        <Date>2017-04-01 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">KCOM Stadium</Stat>
+      <Stat Type="City">Hull</Stat>
+      <TeamData Side="Home" TeamRef="t88" />
+      <TeamData Side="Away" TeamRef="t21" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855466">
+      <MatchInfo MatchDay="30" MatchType="Regular" Period="PreMatch" Venue_id="2516">
+        <Date>2017-04-01 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">King Power Stadium</Stat>
+      <Stat Type="City">Leicester</Stat>
+      <TeamData Side="Home" TeamRef="t13" />
+      <TeamData Side="Away" TeamRef="t110" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855467">
+      <MatchInfo MatchDay="30" MatchType="Regular" Period="PreMatch" Venue_id="39">
+        <Date>2017-04-01 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t14" />
+      <TeamData Side="Away" TeamRef="t11" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855468">
+      <MatchInfo MatchDay="30" MatchType="Regular" Period="PreMatch" Venue_id="28">
+        <Date>2017-04-01 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t1" />
+      <TeamData Side="Away" TeamRef="t35" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855469">
+      <MatchInfo MatchDay="30" MatchType="Regular" Period="PreMatch" Venue_id="2370">
+        <Date>2017-04-01 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">St. Mary&#39;s Stadium</Stat>
+      <Stat Type="City">Southampton</Stat>
+      <TeamData Side="Home" TeamRef="t20" />
+      <TeamData Side="Away" TeamRef="t91" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855470">
+      <MatchInfo MatchDay="30" MatchType="Regular" Period="PreMatch" Venue_id="2867">
+        <Date>2017-04-01 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Liberty Stadium</Stat>
+      <Stat Type="City">Swansea</Stat>
+      <TeamData Side="Home" TeamRef="t80" />
+      <TeamData Side="Away" TeamRef="t25" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855471">
+      <MatchInfo MatchDay="30" MatchType="Regular" Period="PreMatch" Venue_id="73">
+        <Date>2017-04-01 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vicarage Road</Stat>
+      <Stat Type="City">Watford</Stat>
+      <TeamData Side="Home" TeamRef="t57" />
+      <TeamData Side="Away" TeamRef="t56" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855472">
+      <MatchInfo MatchDay="31" MatchType="Regular" Period="PreMatch" Venue_id="3250">
+        <Date>2017-04-04 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Emirates Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t3" />
+      <TeamData Side="Away" TeamRef="t21" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855473">
+      <MatchInfo MatchDay="31" MatchType="Regular" Period="PreMatch" Venue_id="88">
+        <Date>2017-04-04 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Turf Moor</Stat>
+      <Stat Type="City">Burnley</Stat>
+      <TeamData Side="Home" TeamRef="t90" />
+      <TeamData Side="Away" TeamRef="t110" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855474">
+      <MatchInfo MatchDay="31" MatchType="Regular" Period="PreMatch" Venue_id="2638">
+        <Date>2017-04-04 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">KCOM Stadium</Stat>
+      <Stat Type="City">Hull</Stat>
+      <TeamData Side="Home" TeamRef="t88" />
+      <TeamData Side="Away" TeamRef="t25" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855475">
+      <MatchInfo MatchDay="31" MatchType="Regular" Period="PreMatch" Venue_id="2516">
+        <Date>2017-04-04 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">King Power Stadium</Stat>
+      <Stat Type="City">Leicester</Stat>
+      <TeamData Side="Home" TeamRef="t13" />
+      <TeamData Side="Away" TeamRef="t56" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855476">
+      <MatchInfo MatchDay="31" MatchType="Regular" Period="PreMatch" Venue_id="28">
+        <Date>2017-04-04 20:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t1" />
+      <TeamData Side="Away" TeamRef="t11" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855477">
+      <MatchInfo MatchDay="31" MatchType="Regular" Period="PreMatch" Venue_id="2867">
+        <Date>2017-04-04 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Liberty Stadium</Stat>
+      <Stat Type="City">Swansea</Stat>
+      <TeamData Side="Home" TeamRef="t80" />
+      <TeamData Side="Away" TeamRef="t6" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855478">
+      <MatchInfo MatchDay="31" MatchType="Regular" Period="PreMatch" Venue_id="73">
+        <Date>2017-04-04 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vicarage Road</Stat>
+      <Stat Type="City">Watford</Stat>
+      <TeamData Side="Home" TeamRef="t57" />
+      <TeamData Side="Away" TeamRef="t35" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855479">
+      <MatchInfo MatchDay="31" MatchType="Regular" Period="PreMatch" Venue_id="35">
+        <Date>2017-04-05 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t8" />
+      <TeamData Side="Away" TeamRef="t43" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855480">
+      <MatchInfo MatchDay="31" MatchType="Regular" Period="PreMatch" Venue_id="39">
+        <Date>2017-04-05 20:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t14" />
+      <TeamData Side="Away" TeamRef="t91" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855481">
+      <MatchInfo MatchDay="31" MatchType="Regular" Period="PreMatch" Venue_id="2370">
+        <Date>2017-04-05 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">St. Mary&#39;s Stadium</Stat>
+      <Stat Type="City">Southampton</Stat>
+      <TeamData Side="Home" TeamRef="t20" />
+      <TeamData Side="Away" TeamRef="t31" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855482">
+      <MatchInfo MatchDay="32" MatchType="Regular" Period="PreMatch" Venue_id="2734">
+        <Date>2017-04-08 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vitality Stadium</Stat>
+      <Stat Type="City">Bournemouth</Stat>
+      <TeamData Side="Home" TeamRef="t91" />
+      <TeamData Side="Away" TeamRef="t8" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855483">
+      <MatchInfo MatchDay="32" MatchType="Regular" Period="PreMatch" Venue_id="48">
+        <Date>2017-04-08 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Selhurst Park</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t31" />
+      <TeamData Side="Away" TeamRef="t3" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855484">
+      <MatchInfo MatchDay="32" MatchType="Regular" Period="PreMatch" Venue_id="37">
+        <Date>2017-04-08 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Goodison Park</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t11" />
+      <TeamData Side="Away" TeamRef="t13" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855485">
+      <MatchInfo MatchDay="32" MatchType="Regular" Period="PreMatch" Venue_id="2691">
+        <Date>2017-04-08 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t43" />
+      <TeamData Side="Away" TeamRef="t88" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855486">
+      <MatchInfo MatchDay="32" MatchType="Regular" Period="PreMatch" Venue_id="46">
+        <Date>2017-04-08 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Riverside Stadium</Stat>
+      <Stat Type="City">Middlesbrough</Stat>
+      <TeamData Side="Home" TeamRef="t25" />
+      <TeamData Side="Away" TeamRef="t90" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855487">
+      <MatchInfo MatchDay="32" MatchType="Regular" Period="PreMatch" Venue_id="1">
+        <Date>2017-04-08 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">bet365 Stadium</Stat>
+      <Stat Type="City">Stoke</Stat>
+      <TeamData Side="Home" TeamRef="t110" />
+      <TeamData Side="Away" TeamRef="t14" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855488">
+      <MatchInfo MatchDay="32" MatchType="Regular" Period="PreMatch" Venue_id="72">
+        <Date>2017-04-08 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stadium of Light</Stat>
+      <Stat Type="City">Sunderland</Stat>
+      <TeamData Side="Home" TeamRef="t56" />
+      <TeamData Side="Away" TeamRef="t1" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855489">
+      <MatchInfo MatchDay="32" MatchType="Regular" Period="PreMatch" Venue_id="33">
+        <Date>2017-04-08 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">White Hart Lane</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t6" />
+      <TeamData Side="Away" TeamRef="t57" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855490">
+      <MatchInfo MatchDay="32" MatchType="Regular" Period="PreMatch" Venue_id="51">
+        <Date>2017-04-08 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">The Hawthorns</Stat>
+      <Stat Type="City">West Bromwich</Stat>
+      <TeamData Side="Home" TeamRef="t35" />
+      <TeamData Side="Away" TeamRef="t20" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855491">
+      <MatchInfo MatchDay="32" MatchType="Regular" Period="PreMatch" Venue_id="11249">
+        <Date>2017-04-08 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">London Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t21" />
+      <TeamData Side="Away" TeamRef="t80" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855492">
+      <MatchInfo MatchDay="33" MatchType="Regular" Period="PreMatch" Venue_id="48">
+        <Date>2017-04-15 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Selhurst Park</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t31" />
+      <TeamData Side="Away" TeamRef="t13" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855493">
+      <MatchInfo MatchDay="33" MatchType="Regular" Period="PreMatch" Venue_id="37">
+        <Date>2017-04-15 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Goodison Park</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t11" />
+      <TeamData Side="Away" TeamRef="t90" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855494">
+      <MatchInfo MatchDay="33" MatchType="Regular" Period="PreMatch" Venue_id="28">
+        <Date>2017-04-15 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t1" />
+      <TeamData Side="Away" TeamRef="t8" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855495">
+      <MatchInfo MatchDay="33" MatchType="Regular" Period="PreMatch" Venue_id="46">
+        <Date>2017-04-15 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Riverside Stadium</Stat>
+      <Stat Type="City">Middlesbrough</Stat>
+      <TeamData Side="Home" TeamRef="t25" />
+      <TeamData Side="Away" TeamRef="t3" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855496">
+      <MatchInfo MatchDay="33" MatchType="Regular" Period="PreMatch" Venue_id="2370">
+        <Date>2017-04-15 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">St. Mary&#39;s Stadium</Stat>
+      <Stat Type="City">Southampton</Stat>
+      <TeamData Side="Home" TeamRef="t20" />
+      <TeamData Side="Away" TeamRef="t43" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855497">
+      <MatchInfo MatchDay="33" MatchType="Regular" Period="PreMatch" Venue_id="1">
+        <Date>2017-04-15 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">bet365 Stadium</Stat>
+      <Stat Type="City">Stoke</Stat>
+      <TeamData Side="Home" TeamRef="t110" />
+      <TeamData Side="Away" TeamRef="t88" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855498">
+      <MatchInfo MatchDay="33" MatchType="Regular" Period="PreMatch" Venue_id="72">
+        <Date>2017-04-15 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stadium of Light</Stat>
+      <Stat Type="City">Sunderland</Stat>
+      <TeamData Side="Home" TeamRef="t56" />
+      <TeamData Side="Away" TeamRef="t21" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855499">
+      <MatchInfo MatchDay="33" MatchType="Regular" Period="PreMatch" Venue_id="33">
+        <Date>2017-04-15 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">White Hart Lane</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t6" />
+      <TeamData Side="Away" TeamRef="t91" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855500">
+      <MatchInfo MatchDay="33" MatchType="Regular" Period="PreMatch" Venue_id="73">
+        <Date>2017-04-15 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vicarage Road</Stat>
+      <Stat Type="City">Watford</Stat>
+      <TeamData Side="Home" TeamRef="t57" />
+      <TeamData Side="Away" TeamRef="t80" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-07-07T07:38:29+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855501">
+      <MatchInfo MatchDay="33" MatchType="Regular" Period="PreMatch" Venue_id="51">
+        <Date>2017-04-16 16:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">The Hawthorns</Stat>
+      <Stat Type="City">West Bromwich</Stat>
+      <TeamData Side="Home" TeamRef="t35" />
+      <TeamData Side="Away" TeamRef="t14" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855503">
+      <MatchInfo MatchDay="34" MatchType="Regular" Period="PreMatch" Venue_id="3250">
+        <Date>2017-04-22 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Emirates Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t3" />
+      <TeamData Side="Away" TeamRef="t56" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855502">
+      <MatchInfo MatchDay="34" MatchType="Regular" Period="PreMatch" Venue_id="2734">
+        <Date>2017-04-22 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vitality Stadium</Stat>
+      <Stat Type="City">Bournemouth</Stat>
+      <TeamData Side="Home" TeamRef="t91" />
+      <TeamData Side="Away" TeamRef="t25" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855504">
+      <MatchInfo MatchDay="34" MatchType="Regular" Period="PreMatch" Venue_id="88">
+        <Date>2017-04-22 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Turf Moor</Stat>
+      <Stat Type="City">Burnley</Stat>
+      <TeamData Side="Home" TeamRef="t90" />
+      <TeamData Side="Away" TeamRef="t1" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855505">
+      <MatchInfo MatchDay="34" MatchType="Regular" Period="PreMatch" Venue_id="35">
+        <Date>2017-04-22 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t8" />
+      <TeamData Side="Away" TeamRef="t20" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855506">
+      <MatchInfo MatchDay="34" MatchType="Regular" Period="PreMatch" Venue_id="2638">
+        <Date>2017-04-22 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">KCOM Stadium</Stat>
+      <Stat Type="City">Hull</Stat>
+      <TeamData Side="Home" TeamRef="t88" />
+      <TeamData Side="Away" TeamRef="t57" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855507">
+      <MatchInfo MatchDay="34" MatchType="Regular" Period="PreMatch" Venue_id="2516">
+        <Date>2017-04-22 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">King Power Stadium</Stat>
+      <Stat Type="City">Leicester</Stat>
+      <TeamData Side="Home" TeamRef="t13" />
+      <TeamData Side="Away" TeamRef="t6" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855508">
+      <MatchInfo MatchDay="34" MatchType="Regular" Period="PreMatch" Venue_id="39">
+        <Date>2017-04-22 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t14" />
+      <TeamData Side="Away" TeamRef="t31" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855509">
+      <MatchInfo MatchDay="34" MatchType="Regular" Period="PreMatch" Venue_id="2691">
+        <Date>2017-04-22 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t43" />
+      <TeamData Side="Away" TeamRef="t35" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855510">
+      <MatchInfo MatchDay="34" MatchType="Regular" Period="PreMatch" Venue_id="2867">
+        <Date>2017-04-22 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Liberty Stadium</Stat>
+      <Stat Type="City">Swansea</Stat>
+      <TeamData Side="Home" TeamRef="t80" />
+      <TeamData Side="Away" TeamRef="t110" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855511">
+      <MatchInfo MatchDay="34" MatchType="Regular" Period="PreMatch" Venue_id="11249">
+        <Date>2017-04-22 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">London Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t21" />
+      <TeamData Side="Away" TeamRef="t11" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855512">
+      <MatchInfo MatchDay="35" MatchType="Regular" Period="PreMatch" Venue_id="48">
+        <Date>2017-04-29 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Selhurst Park</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t31" />
+      <TeamData Side="Away" TeamRef="t90" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855513">
+      <MatchInfo MatchDay="35" MatchType="Regular" Period="PreMatch" Venue_id="37">
+        <Date>2017-04-29 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Goodison Park</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t11" />
+      <TeamData Side="Away" TeamRef="t8" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855514">
+      <MatchInfo MatchDay="35" MatchType="Regular" Period="PreMatch" Venue_id="28">
+        <Date>2017-04-29 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t1" />
+      <TeamData Side="Away" TeamRef="t80" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855515">
+      <MatchInfo MatchDay="35" MatchType="Regular" Period="PreMatch" Venue_id="46">
+        <Date>2017-04-29 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Riverside Stadium</Stat>
+      <Stat Type="City">Middlesbrough</Stat>
+      <TeamData Side="Home" TeamRef="t25" />
+      <TeamData Side="Away" TeamRef="t43" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855516">
+      <MatchInfo MatchDay="35" MatchType="Regular" Period="PreMatch" Venue_id="2370">
+        <Date>2017-04-29 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">St. Mary&#39;s Stadium</Stat>
+      <Stat Type="City">Southampton</Stat>
+      <TeamData Side="Home" TeamRef="t20" />
+      <TeamData Side="Away" TeamRef="t88" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855517">
+      <MatchInfo MatchDay="35" MatchType="Regular" Period="PreMatch" Venue_id="1">
+        <Date>2017-04-29 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">bet365 Stadium</Stat>
+      <Stat Type="City">Stoke</Stat>
+      <TeamData Side="Home" TeamRef="t110" />
+      <TeamData Side="Away" TeamRef="t21" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855518">
+      <MatchInfo MatchDay="35" MatchType="Regular" Period="PreMatch" Venue_id="72">
+        <Date>2017-04-29 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stadium of Light</Stat>
+      <Stat Type="City">Sunderland</Stat>
+      <TeamData Side="Home" TeamRef="t56" />
+      <TeamData Side="Away" TeamRef="t91" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855519">
+      <MatchInfo MatchDay="35" MatchType="Regular" Period="PreMatch" Venue_id="33">
+        <Date>2017-04-29 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">White Hart Lane</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t6" />
+      <TeamData Side="Away" TeamRef="t3" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855520">
+      <MatchInfo MatchDay="35" MatchType="Regular" Period="PreMatch" Venue_id="73">
+        <Date>2017-04-29 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vicarage Road</Stat>
+      <Stat Type="City">Watford</Stat>
+      <TeamData Side="Home" TeamRef="t57" />
+      <TeamData Side="Away" TeamRef="t14" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855521">
+      <MatchInfo MatchDay="35" MatchType="Regular" Period="PreMatch" Venue_id="51">
+        <Date>2017-04-29 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">The Hawthorns</Stat>
+      <Stat Type="City">West Bromwich</Stat>
+      <TeamData Side="Home" TeamRef="t35" />
+      <TeamData Side="Away" TeamRef="t13" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855523">
+      <MatchInfo MatchDay="36" MatchType="Regular" Period="PreMatch" Venue_id="3250">
+        <Date>2017-05-06 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Emirates Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t3" />
+      <TeamData Side="Away" TeamRef="t1" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855522">
+      <MatchInfo MatchDay="36" MatchType="Regular" Period="PreMatch" Venue_id="2734">
+        <Date>2017-05-06 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vitality Stadium</Stat>
+      <Stat Type="City">Bournemouth</Stat>
+      <TeamData Side="Home" TeamRef="t91" />
+      <TeamData Side="Away" TeamRef="t110" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855524">
+      <MatchInfo MatchDay="36" MatchType="Regular" Period="PreMatch" Venue_id="88">
+        <Date>2017-05-06 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Turf Moor</Stat>
+      <Stat Type="City">Burnley</Stat>
+      <TeamData Side="Home" TeamRef="t90" />
+      <TeamData Side="Away" TeamRef="t35" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855525">
+      <MatchInfo MatchDay="36" MatchType="Regular" Period="PreMatch" Venue_id="35">
+        <Date>2017-05-06 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t8" />
+      <TeamData Side="Away" TeamRef="t25" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855526">
+      <MatchInfo MatchDay="36" MatchType="Regular" Period="PreMatch" Venue_id="2638">
+        <Date>2017-05-06 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">KCOM Stadium</Stat>
+      <Stat Type="City">Hull</Stat>
+      <TeamData Side="Home" TeamRef="t88" />
+      <TeamData Side="Away" TeamRef="t56" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855527">
+      <MatchInfo MatchDay="36" MatchType="Regular" Period="PreMatch" Venue_id="2516">
+        <Date>2017-05-06 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">King Power Stadium</Stat>
+      <Stat Type="City">Leicester</Stat>
+      <TeamData Side="Home" TeamRef="t13" />
+      <TeamData Side="Away" TeamRef="t57" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855528">
+      <MatchInfo MatchDay="36" MatchType="Regular" Period="PreMatch" Venue_id="39">
+        <Date>2017-05-06 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t14" />
+      <TeamData Side="Away" TeamRef="t20" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855529">
+      <MatchInfo MatchDay="36" MatchType="Regular" Period="PreMatch" Venue_id="2691">
+        <Date>2017-05-06 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t43" />
+      <TeamData Side="Away" TeamRef="t31" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855530">
+      <MatchInfo MatchDay="36" MatchType="Regular" Period="PreMatch" Venue_id="2867">
+        <Date>2017-05-06 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Liberty Stadium</Stat>
+      <Stat Type="City">Swansea</Stat>
+      <TeamData Side="Home" TeamRef="t80" />
+      <TeamData Side="Away" TeamRef="t11" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855531">
+      <MatchInfo MatchDay="36" MatchType="Regular" Period="PreMatch" Venue_id="11249">
+        <Date>2017-05-06 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">London Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t21" />
+      <TeamData Side="Away" TeamRef="t6" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855532">
+      <MatchInfo MatchDay="37" MatchType="Regular" Period="PreMatch" Venue_id="2734">
+        <Date>2017-05-13 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vitality Stadium</Stat>
+      <Stat Type="City">Bournemouth</Stat>
+      <TeamData Side="Home" TeamRef="t91" />
+      <TeamData Side="Away" TeamRef="t90" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855533">
+      <MatchInfo MatchDay="37" MatchType="Regular" Period="PreMatch" Venue_id="48">
+        <Date>2017-05-13 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Selhurst Park</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t31" />
+      <TeamData Side="Away" TeamRef="t88" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855534">
+      <MatchInfo MatchDay="37" MatchType="Regular" Period="PreMatch" Venue_id="37">
+        <Date>2017-05-13 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Goodison Park</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t11" />
+      <TeamData Side="Away" TeamRef="t57" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855535">
+      <MatchInfo MatchDay="37" MatchType="Regular" Period="PreMatch" Venue_id="2691">
+        <Date>2017-05-13 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t43" />
+      <TeamData Side="Away" TeamRef="t13" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855536">
+      <MatchInfo MatchDay="37" MatchType="Regular" Period="PreMatch" Venue_id="46">
+        <Date>2017-05-13 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Riverside Stadium</Stat>
+      <Stat Type="City">Middlesbrough</Stat>
+      <TeamData Side="Home" TeamRef="t25" />
+      <TeamData Side="Away" TeamRef="t20" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855537">
+      <MatchInfo MatchDay="37" MatchType="Regular" Period="PreMatch" Venue_id="1">
+        <Date>2017-05-13 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">bet365 Stadium</Stat>
+      <Stat Type="City">Stoke</Stat>
+      <TeamData Side="Home" TeamRef="t110" />
+      <TeamData Side="Away" TeamRef="t3" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855538">
+      <MatchInfo MatchDay="37" MatchType="Regular" Period="PreMatch" Venue_id="72">
+        <Date>2017-05-13 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stadium of Light</Stat>
+      <Stat Type="City">Sunderland</Stat>
+      <TeamData Side="Home" TeamRef="t56" />
+      <TeamData Side="Away" TeamRef="t80" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855539">
+      <MatchInfo MatchDay="37" MatchType="Regular" Period="PreMatch" Venue_id="33">
+        <Date>2017-05-13 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">White Hart Lane</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t6" />
+      <TeamData Side="Away" TeamRef="t1" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855540">
+      <MatchInfo MatchDay="37" MatchType="Regular" Period="PreMatch" Venue_id="51">
+        <Date>2017-05-13 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">The Hawthorns</Stat>
+      <Stat Type="City">West Bromwich</Stat>
+      <TeamData Side="Home" TeamRef="t35" />
+      <TeamData Side="Away" TeamRef="t8" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855541">
+      <MatchInfo MatchDay="37" MatchType="Regular" Period="PreMatch" Venue_id="11249">
+        <Date>2017-05-13 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">London Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t21" />
+      <TeamData Side="Away" TeamRef="t14" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855542">
+      <MatchInfo MatchDay="38" MatchType="Regular" Period="PreMatch" Venue_id="3250">
+        <Date>2017-05-21 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Emirates Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t3" />
+      <TeamData Side="Away" TeamRef="t11" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855543">
+      <MatchInfo MatchDay="38" MatchType="Regular" Period="PreMatch" Venue_id="88">
+        <Date>2017-05-21 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Turf Moor</Stat>
+      <Stat Type="City">Burnley</Stat>
+      <TeamData Side="Home" TeamRef="t90" />
+      <TeamData Side="Away" TeamRef="t21" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855544">
+      <MatchInfo MatchDay="38" MatchType="Regular" Period="PreMatch" Venue_id="35">
+        <Date>2017-05-21 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t8" />
+      <TeamData Side="Away" TeamRef="t56" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855545">
+      <MatchInfo MatchDay="38" MatchType="Regular" Period="PreMatch" Venue_id="2638">
+        <Date>2017-05-21 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">KCOM Stadium</Stat>
+      <Stat Type="City">Hull</Stat>
+      <TeamData Side="Home" TeamRef="t88" />
+      <TeamData Side="Away" TeamRef="t6" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855546">
+      <MatchInfo MatchDay="38" MatchType="Regular" Period="PreMatch" Venue_id="2516">
+        <Date>2017-05-21 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">King Power Stadium</Stat>
+      <Stat Type="City">Leicester</Stat>
+      <TeamData Side="Home" TeamRef="t13" />
+      <TeamData Side="Away" TeamRef="t91" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855547">
+      <MatchInfo MatchDay="38" MatchType="Regular" Period="PreMatch" Venue_id="39">
+        <Date>2017-05-21 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t14" />
+      <TeamData Side="Away" TeamRef="t25" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855548">
+      <MatchInfo MatchDay="38" MatchType="Regular" Period="PreMatch" Venue_id="28">
+        <Date>2017-05-21 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t1" />
+      <TeamData Side="Away" TeamRef="t31" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855549">
+      <MatchInfo MatchDay="38" MatchType="Regular" Period="PreMatch" Venue_id="2370">
+        <Date>2017-05-21 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">St. Mary&#39;s Stadium</Stat>
+      <Stat Type="City">Southampton</Stat>
+      <TeamData Side="Home" TeamRef="t20" />
+      <TeamData Side="Away" TeamRef="t110" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855550">
+      <MatchInfo MatchDay="38" MatchType="Regular" Period="PreMatch" Venue_id="2867">
+        <Date>2017-05-21 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Liberty Stadium</Stat>
+      <Stat Type="City">Swansea</Stat>
+      <TeamData Side="Home" TeamRef="t80" />
+      <TeamData Side="Away" TeamRef="t35" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2016-06-17T09:49:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g855551">
+      <MatchInfo MatchDay="38" MatchType="Regular" Period="PreMatch" Venue_id="73">
+        <Date>2017-05-21 15:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vicarage Road</Stat>
+      <Stat Type="City">Watford</Stat>
+      <TeamData Side="Home" TeamRef="t57" />
+      <TeamData Side="Away" TeamRef="t43" />
+    </MatchData>
+    <TimingTypes>
+      <DetailTypes>
+        <DetailType detail_id="0" name="Unknown" />
+        <DetailType detail_id="1" name="All Events (with positions)" />
+        <DetailType detail_id="2" name="All Events" />
+        <DetailType detail_id="3" name="Key Events" />
+        <DetailType detail_id="4" name="Lineups, Goals &amp; Cards" />
+        <DetailType detail_id="5" name="Goals" />
+        <DetailType detail_id="6" name="Scores" />
+      </DetailTypes>
+      <TimestampAccuracyTypes>
+        <TimestampAccuracyType name="Unknown" timing_id="0" />
+        <TimestampAccuracyType name="Fully Accurate Timestamps (24hr + Match Times)" timing_id="1" />
+        <TimestampAccuracyType name="Accurate Match Times only" timing_id="2" />
+        <TimestampAccuracyType name="To The Minute Accurate" timing_id="3" />
+        <TimestampAccuracyType name="Low Level Accurate Match Times" timing_id="4" />
+        <TimestampAccuracyType name="No Match Time Accuracy" timing_id="5" />
+      </TimestampAccuracyTypes>
+      <TimingType>
+        <TimingType name="Unknown" timestamp_accuracy_id="0" />
+        <TimingType name="Live" timestamp_accuracy_id="1" />
+        <TimingType name="Live Delayed" timestamp_accuracy_id="2" />
+        <TimingType name="Post Match (less than 24 hours)" timestamp_accuracy_id="3" />
+        <TimingType name="Post Match (24 hours+)" timestamp_accuracy_id="4" />
+      </TimingType>
+    </TimingTypes>
+    <Team uID="t35">
+      <Name>West Bromwich Albion</Name>
+    </Team>
+    <Team uID="t11">
+      <Name>Everton</Name>
+    </Team>
+    <Team uID="t21">
+      <Name>West Ham United</Name>
+    </Team>
+    <Team uID="t90">
+      <Name>Burnley</Name>
+    </Team>
+    <Team uID="t80">
+      <Name>Swansea City</Name>
+    </Team>
+    <Team uID="t91">
+      <Name>Bournemouth</Name>
+    </Team>
+    <Team uID="t1">
+      <Name>Manchester United</Name>
+    </Team>
+    <Team uID="t88">
+      <Name>Hull City</Name>
+    </Team>
+    <Team uID="t13">
+      <Name>Leicester City</Name>
+    </Team>
+    <Team uID="t110">
+      <Name>Stoke City</Name>
+    </Team>
+    <Team uID="t6">
+      <Name>Tottenham Hotspur</Name>
+    </Team>
+    <Team uID="t25">
+      <Name>Middlesbrough</Name>
+    </Team>
+    <Team uID="t3">
+      <Name>Arsenal</Name>
+    </Team>
+    <Team uID="t57">
+      <Name>Watford</Name>
+    </Team>
+    <Team uID="t14">
+      <Name>Liverpool</Name>
+    </Team>
+    <Team uID="t20">
+      <Name>Southampton</Name>
+    </Team>
+    <Team uID="t8">
+      <Name>Chelsea</Name>
+    </Team>
+    <Team uID="t56">
+      <Name>Sunderland</Name>
+    </Team>
+    <Team uID="t43">
+      <Name>Manchester City</Name>
+    </Team>
+    <Team uID="t31">
+      <Name>Crystal Palace</Name>
+    </Team>
+  </SoccerDocument>
+</SoccerFeed>
