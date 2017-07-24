@@ -21,13 +21,12 @@ public class XmlConsumerActor extends AbstractActor implements FileSupport {
     private ActorRef xmlParser = getContext().actorOf(XmlReaderActor.props().withRouter(FromConfig.getInstance()), ACTOR_XML_PARSER);
 
     private final FI.TypedPredicate<FileCreated> IS_XML = fileCreated -> hasExtension(fileCreated.getFile(), "xml");
-    private final FI.TypedPredicate<FileCreated> IS_NOT_XML = fileCreated -> !IS_XML.defined(fileCreated);
 
     @Override
     public Receive createReceive() {
         return receiveBuilder()
                 .match(FileCreated.class, IS_XML, this::processFile)
-                .match(FileCreated.class, IS_NOT_XML, this::skipFile)
+                .match(FileCreated.class, this::skipFile)
                 .build();
     }
 

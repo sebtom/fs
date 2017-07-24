@@ -12,8 +12,6 @@ import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.flipsports.SystemConfig.ACTOR_PROCESSING_LOGIC;
-
 public class ProcessingLogicRegistry {
 
     private static final Map<String, Class<? extends ProcessingLogicActor>> MAPPING;
@@ -21,6 +19,7 @@ public class ProcessingLogicRegistry {
     static {
         Map<String, Class<? extends ProcessingLogicActor>> result = new HashMap<>();
         result.put("f1.xml", F1ProcessingLogic.class);
+        result.put("f1a.xml", F1ProcessingLogic.class);
         result.put("f9.xml", F9ProcessingLogic.class);
         result.put("f40.xml", F40ProcessingLogic.class);
         MAPPING = result;
@@ -34,7 +33,7 @@ public class ProcessingLogicRegistry {
         try {
             Method propsMethod = processingClass.getMethod("props");
             Props props = (Props) propsMethod.invoke(null);
-            return context.actorOf(props, ACTOR_PROCESSING_LOGIC);
+            return context.actorOf(props);
         } catch (IllegalAccessException | InvocationTargetException | NoSuchMethodException e) {
             throw new IllegalStateException(String.format("Could not prepare ProcessingLogicActor for file: %s", filename), e);
         }

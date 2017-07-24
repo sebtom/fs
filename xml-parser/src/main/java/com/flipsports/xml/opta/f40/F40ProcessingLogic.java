@@ -1,33 +1,32 @@
 package com.flipsports.xml.opta.f40;
 
 import akka.actor.Props;
-import com.flipsports.utils.DateUtils;
 import com.flipsports.utils.XmlSupport;
-import com.flipsports.xml.ProcessingLogicActor;
+import com.flipsports.xml.AbstractProcessingLogicActor;
 
+import javax.xml.stream.events.Characters;
 import javax.xml.stream.events.EndElement;
 import javax.xml.stream.events.StartElement;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
-public class F40ProcessingLogic extends ProcessingLogicActor implements XmlSupport {
+public class F40ProcessingLogic extends AbstractProcessingLogicActor implements XmlSupport {
     static public Props props() {
         return Props.create(F40ProcessingLogic.class, F40ProcessingLogic::new);
     }
 
+    public static final DateTimeFormatter FEED_TIME_PARSER = DateTimeFormatter.ofPattern("uuuuMMdd'T'HHmmssxx");
+
     private LocalDateTime feedTimestamp;
-
-    @Override
-    public void initialize() {
-
-    }
 
     //what fields could be optional??
     @Override
     protected void onEnterTag(StartElement startElement) {
         switch (getCurrentElement()) {
             case "SoccerFeed":
-                feedTimestamp = DateUtils.parseIsoOffsetDateTime(
-                        readAttribute(startElement, "timestamp"));
+                feedTimestamp = LocalDateTime.parse(
+                        readAttribute(startElement, "timestamp"),
+                        FEED_TIME_PARSER);
                 break;
             //case ""
             default:
@@ -35,7 +34,7 @@ public class F40ProcessingLogic extends ProcessingLogicActor implements XmlSuppo
     }
 
     @Override
-    protected void onCharacters(XmlCharacters characters) {
+    protected void onCharacters(Characters characters) {
 
     }
 

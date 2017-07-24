@@ -3,9 +3,6 @@ package com.flipsports.xml;
 import akka.actor.AbstractActor;
 import akka.actor.ActorRef;
 import akka.actor.Props;
-import com.flipsports.xml.ProcessingLogicActor.XmlCharacters;
-import com.flipsports.xml.ProcessingLogicActor.XmlEndTag;
-import com.flipsports.xml.ProcessingLogicActor.XmlStartTag;
 import lombok.Value;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
@@ -63,13 +60,13 @@ public class XmlReaderActor extends AbstractActor {
                 if (xmlEvent.isStartElement()) {
                     StartElement startElement = xmlEvent.asStartElement();
                     log.debug("element: {}", startElement.getName());
-                    logic.tell(new XmlStartTag(startElement), this.getSelf());
+                    logic.tell(startElement, this.getSelf());
                 }
                 if (xmlEvent.isCharacters()) {
-                    logic.tell(new XmlCharacters(xmlEvent.asCharacters()), this.getSelf());
+                    logic.tell(xmlEvent.asCharacters(), this.getSelf());
                 }
                 if (xmlEvent.isEndElement()) {
-                    logic.tell(new XmlEndTag(xmlEvent.asEndElement()), this.getSelf());
+                    logic.tell(xmlEvent.asEndElement(), this.getSelf());
                 }
             }
         } catch (Exception e) {
