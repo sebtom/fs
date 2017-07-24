@@ -7,5 +7,4 @@ public interface FileSupport {
     default boolean hasExtension(File file, String extension) {
         return file.getName().endsWith("." + extension);
     }
-
 }

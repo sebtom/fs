@@ -43,8 +43,4 @@ public class FileMonitor {
             system.terminate();
         }
     }
-
-    //akka://my-sys/user/service-a/worker1
-
-
 }
