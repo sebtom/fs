@@ -2,6 +2,7 @@ package com.flipsports.xml.opta.f1.matchData;
 
 import akka.actor.AbstractActor;
 import akka.actor.Props;
+import com.flipsports.utils.ActorLookupSupport;
 import com.flipsports.utils.XmlSupport;
 import lombok.extern.slf4j.Slf4j;
 import org.w3c.dom.Document;
@@ -18,8 +19,10 @@ import java.io.StringReader;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import static com.flipsports.SystemConfig.ACTOR_DATA_STORE;
+
 @Slf4j
-public class MatchDataProcessorActor extends AbstractActor implements XmlSupport {
+public class MatchDataProcessorActor extends AbstractActor implements XmlSupport, ActorLookupSupport {
     public static Props props() {
         return Props.create(MatchDataProcessorActor.class, MatchDataProcessorActor::new);
     }
@@ -37,7 +40,7 @@ public class MatchDataProcessorActor extends AbstractActor implements XmlSupport
         try {
             Document document = buildDOMDocument(dataXml.getEvents());
             MatchData result = transformer.parseDOM(document);
-            log.info("parsed {}", result);
+            getContext().actorFor(top(ACTOR_DATA_STORE)).tell(result, this.getSelf());
         } catch (IOException | SAXException | ParserConfigurationException | XPathExpressionException e) {
             log.error("Could not process node {}", dataXml.getEvents().get(0), e);
             throw e;

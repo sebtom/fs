@@ -14,7 +14,7 @@ import static com.flipsports.SystemConfig.ACTOR_XML_PARSER;
 
 @Slf4j
 public class XmlConsumerActor extends AbstractActor implements FileSupport {
-    static public Props props() {
+    public static Props props() {
         return Props.create(XmlConsumerActor.class, XmlConsumerActor::new);
     }
 

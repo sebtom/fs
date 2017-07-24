@@ -18,7 +18,7 @@ import java.io.FileNotFoundException;
 
 @Slf4j
 public class XmlReaderActor extends AbstractActor {
-    static public Props props() {
+    public static Props props() {
         return Props.create(XmlReaderActor.class, XmlReaderActor::new);
     }
 

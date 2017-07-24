@@ -1,0 +1,11 @@
+<MatchData detail_id="1" last_modified="2016-08-21T19:29:57+00:00" timestamp_accuracy_id="1" timing_id="1"
+           uID="g855192">
+    <MatchInfo MatchDay="3" MatchType="Regular" Period="PreMatch" Venue_id="35">
+        <Date>2016-08-27 15:00:00</Date>
+        <TZ>BST</TZ>
+    </MatchInfo>
+    <Stat Type="Venue">Stamford Bridge</Stat>
+    <Stat Type="City">London</Stat>
+    <TeamData Side="Home" TeamRef="t8"/>
+    <TeamData Side="Away" TeamRef="t90"/>
+</MatchData>

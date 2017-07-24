@@ -22,7 +22,7 @@ import static com.flipsports.SystemConfig.ACTOR_MATCH_DATA_PROCESSOR;
  * I'm parsing only those elements from this file and I'm creating simple state machine (not full AbstractFSM)
  */
 public class F1ProcessingLogicActor extends AbstractActor implements ProcessingLogicActor {
-    static public Props props() {
+    public static Props props() {
         return Props.create(F1ProcessingLogicActor.class, F1ProcessingLogicActor::new);
     }
 

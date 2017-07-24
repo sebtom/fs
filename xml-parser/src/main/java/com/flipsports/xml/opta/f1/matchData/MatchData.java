@@ -17,8 +17,22 @@ public class MatchData {
     private String homeTeam;
     private String awayTeam;
 
+    private Period period;
+
     private int homeTeamScore;
     private int awayTeamScore;
 
     private String winner;
+
+    public enum Period {
+        FullTime, PreMatch, Unknown;
+
+        public static Period of(String name) {
+            try {
+                return Period.valueOf(name);
+            } catch(IllegalArgumentException ex) {
+                return Unknown;
+            }
+        }
+    }
 }

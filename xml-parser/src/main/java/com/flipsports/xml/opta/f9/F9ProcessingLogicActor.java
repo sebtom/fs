@@ -8,7 +8,7 @@ import javax.xml.stream.events.EndElement;
 import javax.xml.stream.events.StartElement;
 
 public class F9ProcessingLogicActor extends AbstractProcessingLogicActor {
-    static public Props props() {
+    public static Props props() {
         return Props.create(F9ProcessingLogicActor.class, F9ProcessingLogicActor::new);
     }
 

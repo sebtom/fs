@@ -1,5 +1,6 @@
 package com.flipsports.xml.opta.f1.matchData;
 
+import com.flipsports.xml.opta.f1.matchData.MatchData.Period;
 import org.w3c.dom.Document;
 
 import javax.xml.xpath.XPath;
@@ -32,14 +33,17 @@ public class MatchDataTransformer {
         result.setCity(xPath.compile("/MatchData/Stat[@Type=\"City\"]").evaluate(document));
 
         result.setHomeTeam(xPath.compile("/MatchData/TeamData[@Side=\"Home\"]/@TeamRef").evaluate(document));
-        result.setHomeTeamScore(Integer.parseInt(
-                xPath.compile("/MatchData/TeamData[@Side=\"Home\"]/@Score").evaluate(document)));
-
         result.setAwayTeam(xPath.compile("/MatchData/TeamData[@Side=\"Away\"]/@TeamRef").evaluate(document));
-        result.setAwayTeamScore(Integer.parseInt(
-                xPath.compile("/MatchData/TeamData[@Side=\"Away\"]/@Score").evaluate(document)));
 
-        result.setWinner(xPath.compile("/MatchData/MatchInfo/@MatchWinner").evaluate(document));
+        Period period = Period.of(xPath.compile("/MatchData/MatchInfo/@Period").evaluate(document));
+
+        if (period.equals(Period.FullTime)) {
+            result.setHomeTeamScore(Integer.parseInt(
+                    xPath.compile("/MatchData/TeamData[@Side=\"Home\"]/@Score").evaluate(document)));
+            result.setAwayTeamScore(Integer.parseInt(
+                    xPath.compile("/MatchData/TeamData[@Side=\"Away\"]/@Score").evaluate(document)));
+            result.setWinner(xPath.compile("/MatchData/MatchInfo/@MatchWinner").evaluate(document));
+        }
 
         return result;
     }

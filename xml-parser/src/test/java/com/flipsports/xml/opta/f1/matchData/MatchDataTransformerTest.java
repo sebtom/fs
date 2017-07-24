@@ -24,9 +24,9 @@ public class MatchDataTransformerTest implements XmlResource {
     }
 
     @Test
-    public void shouldBuildMatchDataWhenValidXMLProvided() throws ParserConfigurationException, IOException, SAXException, XPathExpressionException {
+    public void shouldBuildMatchDataWhenFullTimeProvided() throws ParserConfigurationException, IOException, SAXException, XPathExpressionException {
         //given
-        Document givenDocument = readXml("com/flipsports/xml/opta/f1/matchData/valid.xml");
+        Document givenDocument = readXml("com/flipsports/xml/opta/f1/matchData/FullTime.xml");
 
         //when
         MatchData actual = objectUnderTest.parseDOM(givenDocument);
@@ -38,9 +38,28 @@ public class MatchDataTransformerTest implements XmlResource {
         assertThat(actual.getVenue()).isEqualTo("Turf Moor");
         assertThat(actual.getCity()).isEqualTo("Burnley");
         assertThat(actual.getHomeTeam()).isEqualTo("t90");
-        assertThat(actual.getHomeTeamScore()).isEqualTo(0);
         assertThat(actual.getAwayTeam()).isEqualTo("t80");
+        assertThat(actual.getHomeTeamScore()).isEqualTo(0);
         assertThat(actual.getAwayTeamScore()).isEqualTo(1);
         assertThat(actual.getWinner()).isEqualTo("t80");
+    }
+
+
+    @Test
+    public void shouldBuildMatchDataWhenPreMAtchFProvided() throws ParserConfigurationException, IOException, SAXException, XPathExpressionException {
+        //given
+        Document givenDocument = readXml("com/flipsports/xml/opta/f1/matchData/PreMatch.xml");
+
+        //when
+        MatchData actual = objectUnderTest.parseDOM(givenDocument);
+
+        //then
+        assertThat(actual.getId()).isEqualTo("g855192");
+        assertThat(actual.getUpdatedAt()).isEqualTo(LocalDateTime.of(2016, Month.AUGUST, 21, 19, 29, 57));
+        assertThat(actual.getMatchStartTime()).isEqualTo(LocalDateTime.of(2016, Month.AUGUST, 27, 15, 0, 0));
+        assertThat(actual.getVenue()).isEqualTo("Stamford Bridge");
+        assertThat(actual.getCity()).isEqualTo("London");
+        assertThat(actual.getHomeTeam()).isEqualTo("t8");
+        assertThat(actual.getAwayTeam()).isEqualTo("t90");
     }
 }

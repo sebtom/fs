@@ -13,12 +13,13 @@ import static com.flipsports.SystemConfig.ACTOR_CONSUMER;
 
 @Slf4j
 public class FileSystemActor extends AbstractActor implements ActorLookupSupport {
+    public static Props props(Path path) {
+        return Props.create(FileSystemActor.class, () -> new FileSystemActor(path));
+    }
+
     private final WatchServiceTask watchServiceTask;
     private final Thread watchThread;
 
-    static public Props props(Path path) {
-        return Props.create(FileSystemActor.class, () -> new FileSystemActor(path));
-    }
 
     public FileSystemActor(Path pathToMonitor) throws IOException {
         this.watchServiceTask = new WatchServiceTask(pathToMonitor, this.getSelf());
