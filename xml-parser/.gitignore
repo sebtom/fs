@@ -1,0 +1,4 @@
+app.log
+/build
+/drop
+.gradle

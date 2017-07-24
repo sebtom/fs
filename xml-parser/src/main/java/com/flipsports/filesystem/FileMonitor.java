@@ -19,13 +19,13 @@ import static com.flipsports.SystemConfig.ACTOR_WATCHER;
 public class FileMonitor {
     public static void main(String[] args) throws IOException {
         if (args.length != 1) {
-            System.out.println("Please set the path to monitor - only one parameter!");
+            log.error("Please set the path to monitor - only one parameter!");
             System.exit(1);
         }
 
         val path = Paths.get(args[0]);
         if (Files.notExists(path)) {
-            System.out.println("Please set existing path");
+            log.error("Please set existing path");
             System.exit(1);
         }
 
