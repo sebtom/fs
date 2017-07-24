@@ -29,11 +29,12 @@ public class F1ProcessingLogicActor extends AbstractActor implements ProcessingL
     private AbstractActor.Receive inMatchData;
     private AbstractActor.Receive outsideMatchData;
 
-    private ActorRef matchDataProcessor = getContext().actorOf(MatchDataProcessorActor.props().withRouter(FromConfig.getInstance()), ACTOR_MATCH_DATA_PROCESSOR);
-    private MatchDataXml matchDataXml = null;
+    private ActorRef matchDataProcessor;
 
     private FI.TypedPredicate<StartElement> IS_MATCH_DATA_START = element -> "MatchData".equals(element.getName().getLocalPart());
     private FI.TypedPredicate<EndElement> IS_MATCH_DATA_END = element -> "MatchData".equals(element.getName().getLocalPart());
+
+    private MatchDataXml matchDataXml = null;
 
     public F1ProcessingLogicActor() {
         //assuming xml validation, so not checking the right path!!
@@ -50,6 +51,12 @@ public class F1ProcessingLogicActor extends AbstractActor implements ProcessingL
                 .match(EndElement.class, IS_MATCH_DATA_END, this::inMatchDataEndElement)
                 .match(EndElement.class, this::inMatchDataNewEvent)
                 .build();
+
+        configureProcessors();
+    }
+
+    protected void configureProcessors() {
+        matchDataProcessor = getContext().actorOf(MatchDataProcessorActor.props().withRouter(FromConfig.getInstance()), ACTOR_MATCH_DATA_PROCESSOR);
     }
 
     @Override

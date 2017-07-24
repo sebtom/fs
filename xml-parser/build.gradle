@@ -22,12 +22,18 @@ dependencies {
 
     testCompile 'org.testng:testng:6.11'
     testCompile 'org.assertj:assertj-core:3.8.0'
+    testCompile 'org.mockito:mockito-all:1.10.19'
+    testCompile 'org.powermock:powermock-core:1.7.0'
 
     testCompile 'com.typesafe.akka:akka-testkit_2.12:2.5.3'
 }
 
-mainClassName = "com.lightbend.akka.sample.AkkaQuickstart"
+mainClassName = "com.flipsports.filesystem.FileMonitor"
 
 run {
+    if (project.hasProperty("appArgs")) {
+        args Eval.me(appArgs)
+    }
+
     standardInput = System.in
 }

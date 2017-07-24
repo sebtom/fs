@@ -10,8 +10,6 @@ import lombok.val;
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.events.StartElement;
-import javax.xml.stream.events.XMLEvent;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -54,20 +52,14 @@ public class XmlReaderActor extends AbstractActor {
     private void parseXml(XMLEventReader xmlEventReader, ActorRef logic) throws XMLStreamException {
         try {
             while (xmlEventReader.hasNext()) {
-                XMLEvent xmlEvent = xmlEventReader.nextEvent();
+                val xmlEvent = xmlEventReader.nextEvent();
                 log.debug("parsed event: {}", getEventTypeString(xmlEvent.getEventType()));
 
                 if (xmlEvent.isStartElement()) {
-                    StartElement startElement = xmlEvent.asStartElement();
+                    val startElement = xmlEvent.asStartElement();
                     log.debug("element: {}", startElement.getName());
-                    logic.tell(startElement, this.getSelf());
                 }
-                if (xmlEvent.isCharacters()) {
-                    logic.tell(xmlEvent.asCharacters(), this.getSelf());
-                }
-                if (xmlEvent.isEndElement()) {
-                    logic.tell(xmlEvent.asEndElement(), this.getSelf());
-                }
+                logic.tell(xmlEvent, this.getSelf());
             }
         } catch (Exception e) {
             log.error("Exception occurred while processing XML", e);
