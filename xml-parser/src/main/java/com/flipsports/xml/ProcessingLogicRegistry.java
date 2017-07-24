@@ -3,9 +3,9 @@ package com.flipsports.xml;
 import akka.actor.AbstractActor;
 import akka.actor.ActorRef;
 import akka.actor.Props;
-import com.flipsports.xml.opta.f1.F1ProcessingLogic;
-import com.flipsports.xml.opta.f40.F40ProcessingLogic;
-import com.flipsports.xml.opta.f9.F9ProcessingLogic;
+import com.flipsports.xml.opta.f1.F1ProcessingLogicActor;
+import com.flipsports.xml.opta.f40.F40ProcessingLogicActor;
+import com.flipsports.xml.opta.f9.F9ProcessingLogicActor;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -18,10 +18,10 @@ public class ProcessingLogicRegistry {
 
     static {
         Map<String, Class<? extends ProcessingLogicActor>> result = new HashMap<>();
-        result.put("f1.xml", F1ProcessingLogic.class);
-        result.put("f1a.xml", F1ProcessingLogic.class);
-        result.put("f9.xml", F9ProcessingLogic.class);
-        result.put("f40.xml", F40ProcessingLogic.class);
+        result.put("f1.xml", F1ProcessingLogicActor.class);
+        result.put("f1a.xml", F1ProcessingLogicActor.class);
+        result.put("f9.xml", F9ProcessingLogicActor.class);
+        result.put("f40.xml", F40ProcessingLogicActor.class);
         MAPPING = result;
     }
 

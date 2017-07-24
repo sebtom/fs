@@ -7,9 +7,9 @@ import javax.xml.stream.events.Characters;
 import javax.xml.stream.events.EndElement;
 import javax.xml.stream.events.StartElement;
 
-public class F9ProcessingLogic extends AbstractProcessingLogicActor {
+public class F9ProcessingLogicActor extends AbstractProcessingLogicActor {
     static public Props props() {
-        return Props.create(F9ProcessingLogic.class, F9ProcessingLogic::new);
+        return Props.create(F9ProcessingLogicActor.class, F9ProcessingLogicActor::new);
     }
 
     @Override

@@ -2,14 +2,14 @@ package com.flipsports.xml.opta.f1.matchData;
 
 import lombok.Data;
 
-import java.time.ZonedDateTime;
+import java.time.LocalDateTime;
 
 @Data
 public class MatchData {
     private String id;
-    private ZonedDateTime updatedAt;
+    private LocalDateTime updatedAt;
 
-    private ZonedDateTime matchStartTime;
+    private LocalDateTime matchStartTime;
 
     private String venue;
     private String city;

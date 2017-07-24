@@ -10,9 +10,9 @@ import javax.xml.stream.events.StartElement;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class F40ProcessingLogic extends AbstractProcessingLogicActor implements XmlSupport {
+public class F40ProcessingLogicActor extends AbstractProcessingLogicActor implements XmlSupport {
     static public Props props() {
-        return Props.create(F40ProcessingLogic.class, F40ProcessingLogic::new);
+        return Props.create(F40ProcessingLogicActor.class, F40ProcessingLogicActor::new);
     }
 
     public static final DateTimeFormatter FEED_TIME_PARSER = DateTimeFormatter.ofPattern("uuuuMMdd'T'HHmmssxx");

@@ -6,7 +6,7 @@ import akka.actor.Props;
 import akka.japi.pf.FI;
 import akka.routing.FromConfig;
 import com.flipsports.xml.ProcessingLogicActor;
-import com.flipsports.xml.opta.f1.matchData.MatchDataProcessor;
+import com.flipsports.xml.opta.f1.matchData.MatchDataProcessorActor;
 import com.flipsports.xml.opta.f1.matchData.MatchDataXml;
 
 import javax.xml.stream.events.Characters;
@@ -21,21 +21,21 @@ import static com.flipsports.SystemConfig.ACTOR_MATCH_DATA_PROCESSOR;
  * To achieve that the class is collecting all events between <MatchData></MatchData> and send in single message for processing
  * I'm parsing only those elements from this file and I'm creating simple state machine (not full AbstractFSM)
  */
-public class F1ProcessingLogic extends AbstractActor implements ProcessingLogicActor {
+public class F1ProcessingLogicActor extends AbstractActor implements ProcessingLogicActor {
     static public Props props() {
-        return Props.create(F1ProcessingLogic.class, F1ProcessingLogic::new);
+        return Props.create(F1ProcessingLogicActor.class, F1ProcessingLogicActor::new);
     }
 
     private AbstractActor.Receive inMatchData;
     private AbstractActor.Receive outsideMatchData;
 
-    private ActorRef matchDataProcessor = getContext().actorOf(MatchDataProcessor.props().withRouter(FromConfig.getInstance()), ACTOR_MATCH_DATA_PROCESSOR);
+    private ActorRef matchDataProcessor = getContext().actorOf(MatchDataProcessorActor.props().withRouter(FromConfig.getInstance()), ACTOR_MATCH_DATA_PROCESSOR);
     private MatchDataXml matchDataXml = null;
 
     private FI.TypedPredicate<StartElement> IS_MATCH_DATA_START = element -> "MatchData".equals(element.getName().getLocalPart());
     private FI.TypedPredicate<EndElement> IS_MATCH_DATA_END = element -> "MatchData".equals(element.getName().getLocalPart());
 
-    public F1ProcessingLogic() {
+    public F1ProcessingLogicActor() {
         //assuming xml validation, so not checking the right path!!
         outsideMatchData = receiveBuilder()
                 .match(StartElement.class, IS_MATCH_DATA_START, this::onMatchDataOpen)
